@@ -15,6 +15,15 @@ Step 4: Install dependencies: `pip install -r .\requirements.txt`
 Step 5: Run `pelican -r -l` and navigate to the serving site at the given address. 
 
 
+## Mac Adjusted intructions (credit to Grok prompts)
+Step 1: 'git clone https://github.com/nikhilgajghate/ddw.git'
+Step 1.5: 'cd ddw'
+Step 2: 'python3 -m venv .venv'
+Step 3: 'source .venv/bin/activate'
+Step 4: 'pip install -r requirements.txt'
+Step 5: 'pelican -r -l'
+
+
 ## Mobile View (on Chrome)
 
 For mobile view, follow the below steps: 
