@@ -1,0 +1,160 @@
+{% extends "base.html" %}
+
+{% block title %}{{ SITENAME }} | Wisconsin's Premier Data & AI Conference{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-content">
+        <p class="hero-date">August 2026 • Milwaukee, WI</p>
+        <h1>Data-Driven<br><span class="accent">Wisconsin</span></h1>
+        <p class="hero-tagline">Empowering Data-Driven Business</p>
+        <p class="hero-description">
+            Our mission is to foster and grow the data ecosystem in Wisconsin and the upper Midwest. 
+            Join software engineers, data scientists, and data professionals to explore new tools and techniques.
+        </p>
+        <div class="hero-actions">
+            <a href="#register" class="btn btn-primary btn-lg">Register Now</a>
+            <a href="{{ SITEURL }}/pages/speakers.html" class="btn btn-outline btn-lg">View Speakers</a>
+        </div>
+    </div>
+    <div class="hero-visual">
+        <div class="hero-stats">
+            <div class="stat">
+                <span class="stat-number">6th</span>
+                <span class="stat-label">Year</span>
+            </div>
+            <div class="stat">
+                <span class="stat-number">14+</span>
+                <span class="stat-label">Speakers</span>
+            </div>
+            <div class="stat">
+                <span class="stat-number">3</span>
+                <span class="stat-label">Tracks</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Conference Themes -->
+<section class="themes">
+    <div class="container">
+        <h2 class="section-title">Conference Themes</h2>
+        <div class="theme-cards">
+            <div class="theme-card">
+                <div class="theme-icon">🤖</div>
+                <h3>Augmented Intelligence</h3>
+                <p>AI Amplifying Human Potential Across Wisconsin Industries</p>
+            </div>
+            <div class="theme-card">
+                <div class="theme-icon">👥</div>
+                <h3>Empowering People</h3>
+                <p>Tools and techniques to grow careers in data science and engineering</p>
+            </div>
+            <div class="theme-card">
+                <div class="theme-icon">🏢</div>
+                <h3>Business Impact</h3>
+                <p>Real-world applications and lessons learned from industry leaders</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Featured Speakers Preview -->
+<section class="speakers-preview">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Featured Speakers</h2>
+            <a href="{{ SITEURL }}/pages/speakers.html" class="link-arrow">View all speakers →</a>
+        </div>
+        <div class="speakers-grid">
+            {% for speaker in FEATURED_SPEAKERS[:4] %}
+            <div class="speaker-card">
+                <div class="speaker-image">
+                    <img src="{{ SITEURL }}/images/speakers/{{ speaker.image }}" alt="{{ speaker.name }}">
+                </div>
+                <h4>{{ speaker.name }}</h4>
+                <p class="speaker-title">{{ speaker.title }}</p>
+                <p class="speaker-company">{{ speaker.company }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- Quick Schedule -->
+<section class="schedule-preview">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Conference Day</h2>
+            <a href="{{ SITEURL }}/pages/schedule.html" class="link-arrow">Full schedule →</a>
+        </div>
+        <div class="schedule-timeline">
+            <div class="timeline-item">
+                <span class="time">7:30 AM</span>
+                <span class="event">Registration & Breakfast</span>
+            </div>
+            <div class="timeline-item">
+                <span class="time">8:30 AM</span>
+                <span class="event">Welcome & Keynote</span>
+            </div>
+            <div class="timeline-item">
+                <span class="time">10:00 AM</span>
+                <span class="event">Session 1: AI & Business / Infrastructure</span>
+            </div>
+            <div class="timeline-item">
+                <span class="time">1:00 PM</span>
+                <span class="event">Session 2: Data Science / MLOps</span>
+            </div>
+            <div class="timeline-item">
+                <span class="time">3:00 PM</span>
+                <span class="event">Session 3: AI and Human Work</span>
+            </div>
+            <div class="timeline-item highlight">
+                <span class="time">6:00 PM</span>
+                <span class="event">Networking Dinner</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Sponsors Preview -->
+<section class="sponsors-preview">
+    <div class="container">
+        <h2 class="section-title">Our Sponsors</h2>
+        <p class="section-subtitle">Thank you to the organizations making this event possible</p>
+        <div class="sponsor-logos">
+            {% for sponsor in SPONSORS %}
+            <div class="sponsor-logo">
+                <img src="{{ SITEURL }}/images/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }}">
+            </div>
+            {% endfor %}
+        </div>
+        <a href="{{ SITEURL }}/pages/sponsors.html" class="btn btn-outline">View All Sponsors</a>
+    </div>
+</section>
+
+<!-- Registration CTA -->
+<section class="cta-section" id="register">
+    <div class="container">
+        <h2>Join Us in Milwaukee</h2>
+        <p>Be part of Wisconsin's premier applied AI and data-driven technology event</p>
+        <div class="pricing-cards">
+            <div class="pricing-card">
+                <h3>General Admission</h3>
+                <div class="price">$99</div>
+                <p>Includes networking dinner</p>
+                <a href="#" class="btn btn-primary">Register</a>
+            </div>
+            <div class="pricing-card student">
+                <span class="badge">Limited</span>
+                <h3>Student Admission</h3>
+                <div class="price">$39</div>
+                <p>50 sponsor-supported spots</p>
+                <a href="#" class="btn btn-primary">Register</a>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
