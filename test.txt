@@ -1,1 +1,0 @@
-This is a test commit after moving the repository from my personal account to the DDW Organization
