@@ -39,7 +39,7 @@ Save_as: pages/team.html
 <img src="/images/organizers/Schultz_Stephanie.png" alt="Stephanie Schultz">
 </div>
 <h3>Stephanie Schultz</h3>
-<p class="member-title">Administrative Assistant, Diercks Hall</p>
+<p class="member-title">Administrative Assistant</p>
 <p class="member-company">Milwaukee School of Engineering</p>
 </div>
 
