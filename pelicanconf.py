@@ -12,7 +12,7 @@ TIMEZONE = 'US/Central'
 DEFAULT_LANG = 'en'
 
 # Static paths
-STATIC_PATHS = ['images']
+STATIC_PATHS = ['images', 'files']
 
 # URL settings
 PAGE_URL = 'pages/{slug}.html'

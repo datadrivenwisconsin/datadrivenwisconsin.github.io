@@ -1686,6 +1686,31 @@ section {
     margin: 0 auto;
 }
 
+.slides-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    margin-top: var(--spacing-xs);
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--color-primary-dark);
+    transition: color var(--transition-fast);
+}
+
+.slides-link:hover {
+    color: var(--color-secondary);
+}
+
+.slides-link svg {
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
+}
+
+.past-keynote-info .slides-link {
+    margin-top: var(--spacing-sm);
+}
+
 /* ========================================
    ARTICLE STYLES
    ======================================== */
