@@ -36,6 +36,7 @@ Event_venue: Marquette University Alumni Memorial Union, Milwaukee, WI
 <h4>Evaluating Algorithmic Fairness</h4>
 <p class="speaker-name">Egor Korneev</p>
 <p class="speaker-role">CEO, Ordinal Science</p>
+<a href="/files/past-events/2018/Egor Korneev.pdf" target="_blank" class="slides-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg> View Slides</a>
 </div>
 </div>
 
@@ -45,6 +46,7 @@ Event_venue: Marquette University Alumni Memorial Union, Milwaukee, WI
 <h4>Millions of Mobile Activity Logs to Understand Our Customers, in Real Time!</h4>
 <p class="speaker-name">Aaron Colcord & Kevin Mellott</p>
 <p class="speaker-role">Director of Engineering & Team Lead, FIS</p>
+<a href="/files/past-events/2018/Aaron Colcord + Kevin Mellott.pdf" target="_blank" class="slides-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg> View Slides</a>
 </div>
 </div>
 
@@ -63,6 +65,7 @@ Event_venue: Marquette University Alumni Memorial Union, Milwaukee, WI
 <h4>Communicating Data: Practical Advice for Converting Insight into Action</h4>
 <p class="speaker-name">Seamus Wedge</p>
 <p class="speaker-role">Data Scientist, Jewelers Mutual</p>
+<a href="/files/past-events/2018/Seamus Wedge.pdf" target="_blank" class="slides-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg> View Slides</a>
 </div>
 </div>
 
@@ -81,6 +84,7 @@ Event_venue: Marquette University Alumni Memorial Union, Milwaukee, WI
 <h4>Model Interpretability with Visual Cues</h4>
 <p class="speaker-name">Alex Fortin</p>
 <p class="speaker-role">Data Scientist, American Family Insurance</p>
+<a href="/files/past-events/2018/Alex Fortin.pdf" target="_blank" class="slides-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg> View Slides</a>
 </div>
 </div>
 
@@ -99,6 +103,7 @@ Event_venue: Marquette University Alumni Memorial Union, Milwaukee, WI
 <h4>Deep Learning is for Everyone</h4>
 <p class="speaker-name">Mitchell Henke</p>
 <p class="speaker-role">Software Architect, RokkinCat</p>
+<a href="/files/past-events/2018/Mitchell Henke.pdf" target="_blank" class="slides-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg> View Slides</a>
 </div>
 </div>
 
@@ -117,6 +122,7 @@ Event_venue: Marquette University Alumni Memorial Union, Milwaukee, WI
 <h4>Lessons Learned Running Big Data on AWS</h4>
 <p class="speaker-name">Michael Rhee</p>
 <p class="speaker-role">Senior Data Engineer, Gogo</p>
+<a href="/files/past-events/2018/Michael Rhee.pdf" target="_blank" class="slides-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg> View Slides</a>
 </div>
 </div>
 

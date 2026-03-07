@@ -209,24 +209,6 @@ Event_venue: MSOE Diercks Hall / Direct Supply Innovation & Technology Center, M
 <div class="past-speakers-grid">
 
 <div class="past-speaker-card">
-<img src="/images/past-events/2024/placeholder.jpg" alt="Suryanarayanan Kaushik">
-<div class="speaker-info">
-<h4>AI Enabled Magnetic Resonance Imaging</h4>
-<p class="speaker-name">Suryanarayanan Kaushik</p>
-<p class="speaker-role">GE Healthcare</p>
-</div>
-</div>
-
-<div class="past-speaker-card">
-<img src="/images/past-events/2024/placeholder.jpg" alt="Brian Nett & Prakhar Prakash">
-<div class="speaker-info">
-<h4>ML Driven Computer Vision Applications in X-ray Computed Tomography</h4>
-<p class="speaker-name">Brian Nett & Prakhar Prakash</p>
-<p class="speaker-role">GE Healthcare</p>
-</div>
-</div>
-
-<div class="past-speaker-card">
 <img src="/images/past-events/2024/Katelyn Rowley.png" alt="Katelyn Rowley">
 <div class="speaker-info">
 <h4>The Regulatory Landscape & Challenges of AI/ML in the Medical Device Industry</h4>
