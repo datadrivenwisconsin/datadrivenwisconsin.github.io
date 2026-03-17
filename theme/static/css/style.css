@@ -306,6 +306,32 @@ h4 { font-size: 1.25rem; }
     margin: 0 auto;
 }
 
+.hero-coming-soon {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-coming-soon .hero-content {
+    max-width: 700px;
+}
+
+.hero-coming-soon h1 {
+    font-size: 5rem;
+}
+
+.hero-coming-soon .hero-tagline {
+    font-size: 1.75rem;
+}
+
+.hero-coming-soon .hero-description {
+    font-size: 1.15rem;
+}
+
+.hero-coming-soon .hero-actions {
+    justify-content: center;
+}
+
 .hero-date {
     font-size: 0.9rem;
     font-weight: 600;

@@ -3,43 +3,27 @@
 {% block title %}{{ SITENAME }} | Wisconsin's Premier Data & AI Conference{% endblock %}
 
 {% block content %}
-<!-- Hero Section -->
-<section class="hero">
+<!-- Coming Soon Banner -->
+<section class="hero hero-coming-soon">
     <div class="hero-content">
         <p class="hero-date">August 2026 • Milwaukee, WI</p>
-        <h1>Data-Driven<br><span class="accent">Wisconsin</span></h1>
-        <p class="hero-tagline">Empowering Data-Driven Business</p>
+        <h1>Coming <span class="accent">Soon!</span></h1>
+        <p class="hero-tagline">Data-Driven Wisconsin is returning!</p>
         <p class="hero-description">
-            Our mission is to foster and grow the data ecosystem in Wisconsin and the upper Midwest. 
-            Join software engineers, data scientists, and data professionals to explore new tools and techniques.
+            Details for the seventh annual Data-Driven Wisconsin conference are on their way. Stay tuned for speakers, schedule, and registration information.
         </p>
         <div class="hero-actions">
-            <a href="#register" class="btn btn-primary btn-lg">Register Now</a>
-            <a href="{{ SITEURL }}/pages/speakers.html" class="btn btn-outline btn-lg">View Speakers</a>
-        </div>
-    </div>
-    <div class="hero-visual">
-        <div class="hero-stats">
-            <div class="stat">
-                <span class="stat-number">6th</span>
-                <span class="stat-label">Year</span>
-            </div>
-            <div class="stat">
-                <span class="stat-number">14+</span>
-                <span class="stat-label">Speakers</span>
-            </div>
-            <div class="stat">
-                <span class="stat-number">3</span>
-                <span class="stat-label">Tracks</span>
-            </div>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeC_i7pYNXydy4xzwpQejUJ4gDke9nzWRAA21R0urNB0XTVeg/viewform" class="btn btn-primary btn-lg">Call for Speakers</a>
+            <a href="{{ SITEURL }}/pages/past-events.html" class="btn btn-outline btn-lg">View Past Events</a>
         </div>
     </div>
 </section>
 
-<!-- Conference Themes -->
+<!-- About DDW -->
 <section class="themes">
     <div class="container">
-        <h2 class="section-title">Conference Themes</h2>
+        <h2 class="section-title">Data-Driven Wisconsin</h2>
+        <p class="hero-description" style="text-align: center; max-width: 700px; margin: 0 auto var(--spacing-xl);">Empowering Data-Driven Business — Our mission is to foster and grow the data ecosystem in Wisconsin and the upper Midwest. Join software engineers, data scientists, and data professionals to explore new tools and techniques.</p>
         <div class="theme-cards">
             <div class="theme-card">
                 <div class="theme-icon">🤖</div>
@@ -57,80 +41,6 @@
                 <p>Real-world applications and lessons learned from industry leaders</p>
             </div>
         </div>
-    </div>
-</section>
-
-<!-- Featured Speakers Preview -->
-<section class="speakers-preview">
-    <div class="container">
-        <div class="section-header">
-            <h2 class="section-title">Featured Speakers</h2>
-            <a href="{{ SITEURL }}/pages/speakers.html" class="link-arrow">View all speakers →</a>
-        </div>
-        <div class="speakers-grid">
-            {% for speaker in FEATURED_SPEAKERS[:4] %}
-            <div class="speaker-card">
-                <div class="speaker-image">
-                    <img src="{{ SITEURL }}/images/speakers/{{ speaker.image }}" alt="{{ speaker.name }}">
-                </div>
-                <h4>{{ speaker.name }}</h4>
-                <p class="speaker-title">{{ speaker.title }}</p>
-                <p class="speaker-company">{{ speaker.company }}</p>
-            </div>
-            {% endfor %}
-        </div>
-    </div>
-</section>
-
-<!-- Quick Schedule -->
-<section class="schedule-preview">
-    <div class="container">
-        <div class="section-header">
-            <h2 class="section-title">Conference Day</h2>
-            <a href="{{ SITEURL }}/pages/schedule.html" class="link-arrow">Full schedule →</a>
-        </div>
-        <div class="schedule-timeline">
-            <div class="timeline-item">
-                <span class="time">7:30 AM</span>
-                <span class="event">Registration & Breakfast</span>
-            </div>
-            <div class="timeline-item">
-                <span class="time">8:30 AM</span>
-                <span class="event">Welcome & Keynote</span>
-            </div>
-            <div class="timeline-item">
-                <span class="time">10:00 AM</span>
-                <span class="event">Session 1: AI & Business / Infrastructure</span>
-            </div>
-            <div class="timeline-item">
-                <span class="time">1:00 PM</span>
-                <span class="event">Session 2: Data Science / MLOps</span>
-            </div>
-            <div class="timeline-item">
-                <span class="time">3:00 PM</span>
-                <span class="event">Session 3: AI and Human Work</span>
-            </div>
-            <div class="timeline-item highlight">
-                <span class="time">6:00 PM</span>
-                <span class="event">Networking Dinner</span>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Sponsors Preview -->
-<section class="sponsors-preview">
-    <div class="container">
-        <h2 class="section-title">Our Sponsors</h2>
-        <p class="section-subtitle">Thank you to the organizations making this event possible</p>
-        <div class="sponsor-logos">
-            {% for sponsor in SPONSORS %}
-            <div class="sponsor-logo">
-                <img src="{{ SITEURL }}/images/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }}">
-            </div>
-            {% endfor %}
-        </div>
-        <a href="{{ SITEURL }}/pages/sponsors.html" class="btn btn-outline">View All Sponsors</a>
     </div>
 </section>
 
