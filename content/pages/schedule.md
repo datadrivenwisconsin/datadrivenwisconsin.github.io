@@ -16,7 +16,5 @@ Save_as: pages/schedule.html
 </svg>
 </div>
 <p class="coming-soon-message">We're putting together an exciting lineup of sessions, speakers, and workshops for the next Data-Driven Wisconsin. Stay tuned!</p>
-<p class="coming-soon-message">Interested in being a speaker?</p>
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSeC_i7pYNXydy4xzwpQejUJ4gDke9nzWRAA21R0urNB0XTVeg/viewform" class="btn btn-primary">Call for Speakers</a>
 </div>
 </section>
