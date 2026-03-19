@@ -135,10 +135,13 @@ h4 { font-size: 1.25rem; }
 .nav-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     max-width: 1400px;
     margin: 0 auto;
     padding: var(--spacing-sm) var(--spacing-md);
+}
+
+.nav-container .logo {
+    flex: 1;
 }
 
 .logo img {
@@ -150,6 +153,12 @@ h4 { font-size: 1.25rem; }
     display: flex;
     list-style: none;
     gap: var(--spacing-lg);
+    flex: 0 0 auto;
+}
+
+.nav-container::after {
+    content: '';
+    flex: 1;
 }
 
 .nav-links a {
@@ -304,6 +313,32 @@ h4 { font-size: 1.25rem; }
     padding: var(--spacing-2xl) var(--spacing-md);
     max-width: 1400px;
     margin: 0 auto;
+}
+
+.hero-coming-soon {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-coming-soon .hero-content {
+    max-width: 1000px;
+}
+
+.hero-coming-soon h1 {
+    font-size: 5rem;
+}
+
+.hero-coming-soon .hero-tagline {
+    font-size: 1.75rem;
+}
+
+.hero-coming-soon .hero-description {
+    font-size: 1.15rem;
+}
+
+.hero-coming-soon .hero-actions {
+    justify-content: center;
 }
 
 .hero-date {
@@ -1001,6 +1036,43 @@ section {
     margin: 0 auto;
 }
 
+.coming-soon-heading {
+    text-align: center;
+    font-family: var(--font-heading);
+    font-size: 3rem;
+    color: var(--color-secondary);
+    margin-bottom: var(--spacing-lg);
+}
+
+.schedule-coming-soon {
+    text-align: center;
+    padding: var(--spacing-2xl) var(--spacing-lg);
+    margin: var(--spacing-sm) auto 0;
+    max-width: 560px;
+    background: var(--color-bg-alt);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--color-border);
+}
+
+.coming-soon-icon {
+    color: var(--color-primary);
+    margin-bottom: var(--spacing-md);
+}
+
+.schedule-coming-soon h2 {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    color: var(--color-secondary);
+    margin-bottom: var(--spacing-sm);
+}
+
+.coming-soon-message {
+    color: var(--color-text-light);
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: var(--spacing-xl);
+}
+
 .schedule-date {
     text-align: center;
     font-size: 1.25rem;
@@ -1116,6 +1188,7 @@ section {
 
 .sponsor-tier {
     margin-bottom: var(--spacing-2xl);
+    text-align: center;
 }
 
 .tier-title {
@@ -1124,6 +1197,7 @@ section {
     text-transform: uppercase;
     letter-spacing: 0.1em;
     margin-bottom: var(--spacing-lg);
+    text-align: center;
 }
 
 .tier-sponsors {
@@ -1216,7 +1290,7 @@ section {
 
 .venue-cards {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: var(--spacing-lg);
     margin-bottom: var(--spacing-lg);
 }
@@ -1555,6 +1629,12 @@ section {
 
 .past-event-section:last-child {
     border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.sponsor-tier:last-child {
+    margin-bottom: 0;
 }
 
 /* Past event keynote */
