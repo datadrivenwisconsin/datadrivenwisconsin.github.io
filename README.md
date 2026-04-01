@@ -1,6 +1,6 @@
 # Data-Driven Wisconsin Web Site
 
-This repository contains the code to the Data-Driven Wisconsin (DDWI) conference website.
+This repository contains the code to the [Data-Driven Wisconsin (DDWI) conference website](https://datadrivenwisconsin.github.io/).
 The web site is implemented using the [Pelican](https://getpelican.com/) framework.
 
 ## Setup Instructions
