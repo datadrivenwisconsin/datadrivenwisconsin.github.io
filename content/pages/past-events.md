@@ -7,6 +7,15 @@ Save_as: pages/past-events.html
 <p class="events-intro">Data-Driven Wisconsin has a rich history of bringing together data professionals in the Midwest. Explore our past conferences below.</p>
 
 <div class="events-timeline">
+<a href="/pages/event-2025.html" class="event-card event-card-link">
+<div class="event-year">2025</div>
+<div class="event-info">
+<h3>Data-Driven Wisconsin 2025</h3>
+<p>Our sixth year featuring talks on AI, data science, MLOps, and infrastructure.</p>
+<span class="event-link-text">View event details &rarr;</span>
+</div>
+</a>
+
 <a href="/pages/event-2024.html" class="event-card event-card-link">
 <div class="event-year">2024</div>
 <div class="event-info">

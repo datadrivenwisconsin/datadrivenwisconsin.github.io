@@ -1,4 +1,4 @@
-Title: Meet the Team
+Title: Meet the Organizers
 Slug: team
 Template: page
 Save_as: pages/team.html
