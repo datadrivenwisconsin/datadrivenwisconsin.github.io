@@ -50,9 +50,9 @@ LINKS = (
     ("Home", "/"),
     ("Speakers", "/pages/speakers.html"),
     ("Schedule", "/pages/schedule.html"),
+    ("Attending", "/pages/attending.html"),
     ("Sponsors", "/pages/sponsors.html"),
     ("About", "/pages/about.html"),
-    ("Team", "/pages/team.html"),
     ("Past Events", "/pages/past-events.html"),
 )
 
