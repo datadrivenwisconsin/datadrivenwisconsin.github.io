@@ -15,20 +15,6 @@ Perform the following steps in your terminal.
 1. Install dependencies: `pip install -r .\requirements.txt`
 1. Run `pelican -r -l` and navigate to the serving site at the given address.
 
-### iOS
-
-1. `git clone https://github.com/datadrivenwisconsin/ddw.git`
-
-2. `cd ddw`
-
-3. `python3 -m venv .venv`
-
-4. `source .venv/bin/activate`
-
-5. `pip install -r requirements.txt`
-
-6. `pelican -r -l`
-
 ### Making Changes
 We've disabled direct commits to `main`.  All changes must be done on a feature branch and merged through a pull request.
 If you've got code changes to make:
@@ -41,7 +27,7 @@ If you've got code changes to make:
 
 Once the pull request has been reviewed and merged, you can see the latest changes in `main` by:
 
-1. Checkout the `main branch` locally: `git checkout main`
+1. Checkout the `main` branch locally: `git checkout main`
 1. Pull the changes: `git pull`
 
 ### Deploying the Web Site
