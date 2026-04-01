@@ -34,18 +34,9 @@
             </button>
             
             <ul class="nav-links">
-                <li><a href="{{ SITEURL }}/">Home</a></li>
-                <li><a href="{{ SITEURL }}/pages/speakers.html">Speakers</a></li>
-                <li><a href="{{ SITEURL }}/pages/schedule.html">Schedule</a></li>
-                <li><a href="{{ SITEURL }}/pages/sponsors.html">Sponsors</a></li>
-                <li class="has-dropdown">
-                    <a href="{{ SITEURL }}/pages/about.html">About</a>
-                    <ul class="dropdown">
-                        <li><a href="{{ SITEURL }}/pages/about.html">Conference</a></li>
-                        <li><a href="{{ SITEURL }}/pages/team.html">Organizers</a></li>
-                    </ul>
-                </li>
-                <li><a href="{{ SITEURL }}/pages/past-events.html">Past Events</a></li>
+				{% for title, link in LINKS %}
+                	<li><a href="{{ link }}">{{ title }}</a></li>
+                {% endfor %}
             </ul>
             
             <!-- Registration opens soon -->
