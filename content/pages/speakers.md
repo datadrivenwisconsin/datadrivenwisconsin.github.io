@@ -17,6 +17,6 @@ Save_as: pages/speakers.html
 </div>
 <p class="coming-soon-message">We're finalizing an exciting roster of speakers for the next Data-Driven Wisconsin. Stay tuned!</p>
 <p class="coming-soon-message">Interested in being a speaker?</p>
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSeC_i7pYNXydy4xzwpQejUJ4gDke9nzWRAA21R0urNB0XTVeg/viewform" class="btn btn-primary">Call for Speakers</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSeC_i7pYNXydy4xzwpQejUJ4gDke9nzWRAA21R0urNB0XTVeg/viewform" class="btn btn-primary">Call for Talks</a>
 </div>
 </section>
