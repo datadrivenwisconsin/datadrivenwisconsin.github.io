@@ -33,10 +33,10 @@ Perform the following steps in your terminal.
 We've disabled direct commits to `main`.  All changes must be done on a feature branch and merged through a pull request.
 If you've got code changes to make:
 
-1. Checkout to a feature branch using the command: `git checkout -b feature/your-feature-name`
+1. Checkout to a feature branch using the command: `git checkout -b <your-feature-name>`
 1. Make changes
 1. Commit changes
-1. Push branch to GitHub
+1. Push branch to GitHub: `git push --set-upstream origin <your-feature-name>`
 1. Open a pull request
 
 Once the pull request has been reviewed and merged, you can see the latest changes in `main` by:
