@@ -45,47 +45,9 @@ RELATIVE_URLS = True
 # CONFERENCE DATA
 # ========================================
 
-# Featured speakers for homepage
-FEATURED_SPEAKERS = [
-    {
-        'name': 'Jim Grant',
-        'title': 'VP, Platform Architecture & Engineering',
-        'company': 'Direct Supply, Inc.',
-        'image': 'James Grant.png',
-    },
-    {
-        'name': 'Steve Kroll',
-        'title': 'President',
-        'company': 'Granular',
-        'image': 'Kroll Headshot.png',
-    },
-    {
-        'name': 'Derek Riley, Ph.D.',
-        'title': 'Professor & Program Director',
-        'company': 'Milwaukee School of Engineering',
-        'image': 'Riley Headshot.jpg',
-    },
-    {
-        'name': 'Jack Flitcroft',
-        'title': 'CoFounder & Head of AI',
-        'company': 'Juno',
-        'image': 'Flitcroft Headshot.jpg',
-    },
-]
-
-# Sponsors
-SPONSORS = [
-    {'name': 'Xorbix Technologies', 'logo': 'Xorbix Logo - Complete Transparent (Black Text)).png', 'tier': 'zettabyte'},
-    {'name': 'nvisia', 'logo': 'NV_Primary.png', 'tier': 'zettabyte'},
-    {'name': 'Alation', 'logo': 'Alation-Logo-Primary.png', 'tier': 'exabyte'},
-    {'name': 'Databricks', 'logo': 'Databricks Logo Primary Lockup primary-lockup-full-color-rgb-4000x634.png', 'tier': 'exabyte'},
-    {'name': 'SysLogic', 'logo': 'SysLogic_Logo_wTag_OD_RGB_highres.png', 'tier': 'exabyte'},
-    {'name': 'MSOE', 'logo': 'MSOE logo.png', 'tier': 'hosting'},
-    {'name': 'Direct Supply', 'logo': '_DS_Corporate_Primary_RGB.png', 'tier': 'hosting'},
-]
-
 # Navigation links
 LINKS = (
+    ("Home", "/"),
     ("Speakers", "/pages/speakers.html"),
     ("Schedule", "/pages/schedule.html"),
     ("Sponsors", "/pages/sponsors.html"),
