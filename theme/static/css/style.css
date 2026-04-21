@@ -780,7 +780,7 @@ section {
 
 .page-header {
     background: linear-gradient(135deg, var(--color-bg-alt) 0%, var(--color-bg) 100%);
-    padding: var(--spacing-2xl) 0;
+    padding: var(--spacing-md) 0;
     text-align: center;
     border-bottom: 1px solid var(--color-border);
 }
