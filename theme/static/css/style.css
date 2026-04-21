@@ -310,7 +310,6 @@ h4 { font-size: 1.25rem; }
     grid-template-columns: 1fr 1fr;
     gap: var(--spacing-xl);
     align-items: center;
-    min-height: 80vh;
     padding: var(--spacing-2xl) var(--spacing-md);
     max-width: 1400px;
     margin: 0 auto;
