@@ -1,18 +1,21 @@
-Title: Wisconsin's Premier Data & AI Conference
+Title: Data-Driven Wisconsin 2026
 Date: 2026-03-31
 Slug: home
 URL: 
 Save_as: index.html
-hide_title: True
+hide_title: False
+
+
+<center>
+<h2>August 12 & 13 at MSOE</h2>
+
+<p>The seventh annual Data-Driven Wisconsin conference is coming to the Milwaukee School of Engineering. <br>Save the dates and stay tuned for speakers, schedule, and registration details!</p>
+
+</center>
 
 <!-- Hero Banner -->
 <section class="hero hero-coming-soon">
     <div class="hero-content">
-        <h1>Data-Driven<br><span class="accent">Wisconsin</span> 2026</h1>
-        <p class="hero-tagline">August 12 & 13 at MSOE</p>
-        <p class="hero-description">
-            The seventh annual Data-Driven Wisconsin conference is coming to the Milwaukee School of Engineering. <br><br>Save the dates and stay tuned for speakers, schedule, and registration details!
-        </p>
         <div class="hero-actions">
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSeC_i7pYNXydy4xzwpQejUJ4gDke9nzWRAA21R0urNB0XTVeg/viewform" class="btn btn-primary btn-lg">Call for Talks</a>
             <a href="./pages/past-events.html" class="btn btn-outline btn-lg">View Past Events</a>

@@ -67,7 +67,7 @@ html {
 
 body {
     font-family: var(--font-body);
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 450;
     line-height: 1.6;
     color: var(--color-text);
@@ -96,6 +96,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
     line-height: 1.2;
     color: var(--color-text);
+    margin-bottom: var(--spacing-sm);
 }
 
 p {
@@ -428,7 +429,7 @@ section {
 .section-subtitle {
     text-align: center;
     color: var(--color-text-light);
-    margin-bottom: var(--spacing-xl);
+    margin-bottom: var(--spacing-sm);
 }
 
 .section-header {
@@ -780,7 +781,7 @@ section {
 
 .page-header {
     background: linear-gradient(135deg, var(--color-bg-alt) 0%, var(--color-bg) 100%);
-    padding: var(--spacing-md) 0;
+    padding: var(--spacing-sm) 0;
     text-align: center;
     border-bottom: 1px solid var(--color-border);
 }
@@ -795,7 +796,7 @@ section {
 }
 
 .page-content {
-    padding: var(--spacing-2xl) 0;
+    padding: var(--spacing-sm) 0;
 }
 
 /* ========================================

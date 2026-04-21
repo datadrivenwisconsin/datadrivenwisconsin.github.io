@@ -1,9 +1,8 @@
-Title: Coming Soon!
+Title: Schedule
 Slug: schedule
 Template: page
 Save_as: pages/schedule.html
 
-<style>.page-header { display: none; }</style>
 <section class="schedule-page">
 <h1 class="coming-soon-heading">Schedule Coming Soon!</h1>
 <div class="schedule-coming-soon">
