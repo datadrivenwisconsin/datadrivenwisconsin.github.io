@@ -1,11 +1,43 @@
-Title: Coming Soon!
+Title: Speakers
 Slug: speakers
 Template: page
 Save_as: pages/speakers.html
 
-<style>.page-header { display: none; }</style>
 <section class="schedule-page">
-<h1 class="coming-soon-heading">Speakers Coming Soon!</h1>
+
+<div class="speaker-section" id="session-1-track-1">
+<div class="speakers-grid-full">
+
+	<div class="speaker-card-full">
+	<img src="/images/past-events/2026/vetter.jpg" alt="Headshot">
+	<div class="speaker-info">
+	<h4>6 Years Later: Our AI Is Still Kicking – And Here's the Messy Reality</h4>
+	<p class="speaker-name">Cameron Vetter</p>
+	<p class="speaker-role">New Resources Consulting</p>
+	</div>
+	</div>
+
+	<div class="speaker-card-full">
+	<img src="/images/past-events/2026/mokha.png" alt="Headshot">
+	<div class="speaker-info">
+	<h4>From Raw Signals to Real-Time Insights: Building an End-to-End IoT Pipeline with Databricks Zerobus</h4>
+	<p class="speaker-name">Kirat Mokha</p>
+	<p class="speaker-role">Milwaukee Tool</p>
+	</div>
+	</div>
+
+	<div class="speaker-card-full">
+	<img src="/images/past-events/2026/lembke.jpg" alt="Headshot">
+	<div class="speaker-info">
+	<h4>Directing the Machine: What Happens When You Give AI Agents Structure Instead of Hope</h4>
+	<p class="speaker-name">James Lembke</p>
+	<p class="speaker-role">Milwaukee School of Engineering</p>
+	</div>
+	</div>
+
+</div>
+</div>
+
 <div class="schedule-coming-soon">
 <div class="coming-soon-icon">
 <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">

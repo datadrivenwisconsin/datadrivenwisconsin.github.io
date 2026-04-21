@@ -917,6 +917,7 @@ section {
     text-align: center;
 }
 
+
 .speaker-card-full {
     display: grid;
     grid-template-columns: 80px 1fr;
@@ -924,9 +925,9 @@ section {
     padding: var(--spacing-md);
     background: var(--color-bg);
     border-radius: var(--radius-md);
-    margin-bottom: var(--spacing-md);
+    /* margin-bottom: var(--spacing-md); */
     align-items: center;
-    overflow: hidden;
+    height: 180px;
 }
 
 /* Individual Speaker Cards - Session 1 Track 1 */
@@ -958,9 +959,8 @@ section {
     margin-bottom: var(--spacing-xs);
     line-height: 1.25;
     display: -webkit-box;
-    -webkit-line-clamp: 2;
+    /*-webkit-line-clamp: 2;*/
     -webkit-box-orient: vertical;
-    overflow: hidden;
 }
 
 .speaker-card-full:last-child {
