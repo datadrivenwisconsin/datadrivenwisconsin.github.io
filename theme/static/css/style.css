@@ -817,6 +817,87 @@ section {
     border-bottom: none;
 }
 
+.speaker-card-full {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: var(--spacing-md);
+    padding: var(--spacing-sm);
+    background: var(--color-bg);
+    border-radius: var(--radius-md);
+    margin-bottom: var(--spacing-md);
+    align-items: center;
+    height: 220px;
+}
+
+/* Individual Speaker Cards - Session 1 Track 1 */
+.speaker-card-kroll { height: 180px; }
+.speaker-card-wellen { height: 180px; }
+.speaker-card-storoe { height: 180px; }
+
+/* Individual Speaker Cards - Session 1 Track 2 */
+.speaker-card-vk { height: 180px; }
+.speaker-card-schmirler { height: 180px; }
+.speaker-card-stclair { height: 180px; }
+
+/* Individual Speaker Cards - Session 2 Track 1 */
+.speaker-card-devane { height: 180px; }
+.speaker-card-claus { height: 180px; }
+
+/* Individual Speaker Cards - Session 2 Track 2 */
+.speaker-card-faulkner { height: 180px; }
+.speaker-card-flitcroft { height: 180px; }
+
+/* Individual Speaker Cards - Session 3 */
+.speaker-card-riley { height: 180px; }
+.speaker-card-panciera { height: 180px; }
+
+.speaker-card-full h4 {
+    font-family: var(--font-body);
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: var(--spacing-xs);
+    line-height: 1.25;
+    display: -webkit-box;
+    /*-webkit-line-clamp: 2;*/
+    -webkit-box-orient: vertical;
+}
+
+.speaker-card-full:last-child {
+    margin-bottom: 0;
+}
+
+.speaker-card-full img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.speaker-card-full .speaker-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.speaker-card-full .speaker-name {
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.speaker-card-full .speaker-role {
+    font-size: 1.1rem;
+    margin-bottom: 0;
+}
+
+.speakers-grid-full {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-lg);
+}
+
+
 .session-title {
     font-size: 1.75rem;
     font-weight: 500;
@@ -917,92 +998,11 @@ section {
     text-align: center;
 }
 
-
-.speaker-card-full {
-    display: grid;
-    grid-template-columns: 120px 1fr;
-    gap: var(--spacing-md);
-    padding: var(--spacing-sm);
-    background: var(--color-bg);
-    border-radius: var(--radius-md);
-    /* margin-bottom: var(--spacing-md); */
-    align-items: center;
-    height: 220px;
-}
-
-/* Individual Speaker Cards - Session 1 Track 1 */
-.speaker-card-kroll { height: 180px; }
-.speaker-card-wellen { height: 180px; }
-.speaker-card-storoe { height: 180px; }
-
-/* Individual Speaker Cards - Session 1 Track 2 */
-.speaker-card-vk { height: 180px; }
-.speaker-card-schmirler { height: 180px; }
-.speaker-card-stclair { height: 180px; }
-
-/* Individual Speaker Cards - Session 2 Track 1 */
-.speaker-card-devane { height: 180px; }
-.speaker-card-claus { height: 180px; }
-
-/* Individual Speaker Cards - Session 2 Track 2 */
-.speaker-card-faulkner { height: 180px; }
-.speaker-card-flitcroft { height: 180px; }
-
-/* Individual Speaker Cards - Session 3 */
-.speaker-card-riley { height: 180px; }
-.speaker-card-panciera { height: 180px; }
-
-.speaker-card-full h4 {
-    font-family: var(--font-body);
-    font-size: 1.4rem;
-    font-weight: 600;
-    margin-bottom: var(--spacing-xs);
-    line-height: 1.25;
-    display: -webkit-box;
-    /*-webkit-line-clamp: 2;*/
-    -webkit-box-orient: vertical;
-}
-
-.speaker-card-full:last-child {
-    margin-bottom: 0;
-}
-
-.speaker-card-full img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    object-fit: cover;
-    object-position: center top;
-}
-
-.speaker-card-full .speaker-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 .talk-time {
     font-size: 0.8rem;
     color: var(--color-primary);
     font-weight: 600;
     margin-bottom: var(--spacing-xs);
-}
-
-.speaker-card-full .speaker-name {
-    font-weight: 600;
-    font-size: 1.2rem;
-    margin-bottom: 0;
-}
-
-.speaker-card-full .speaker-role {
-    font-size: 1.1rem;
-    margin-bottom: 0;
-}
-
-.speakers-grid-full {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: var(--spacing-lg);
 }
 
 .special-event-card {
