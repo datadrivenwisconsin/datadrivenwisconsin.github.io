@@ -9,6 +9,16 @@ Save_as: pages/speakers.html
 <div class="speakers-grid-full">
 
 	<div class="speaker-card-full">
+	<img src="/images/past-events/2026/flitcroft.jpg" alt="Headshot">
+	<div class="speaker-info">
+	<h4>Hacky, Useful, Effective: How Our LLM Strategy Evolved</h4>
+	<p class="speaker-name">Jack Flitcroft</p>
+	<p class="speaker-role">Juno</p>
+	</div>
+	</div>
+
+
+	<div class="speaker-card-full">
 	<img src="/images/past-events/2026/vetter.jpg" alt="Headshot">
 	<div class="speaker-info">
 	<h4>6 Years Later: Our AI Is Still Kicking – And Here's the Messy Reality</h4>
