@@ -45,6 +45,15 @@ Save_as: pages/speakers.html
 	</div>
 	</div>
 
+	<div class="speaker-card-full">
+	<img src="/images/past-events/2026/peters.jpg" alt="Headshot">
+	<div class="speaker-info">
+	<h4>Vision Transformers: An Attractive Alternative to CNNs</h4>
+	<p class="speaker-name">John G. Peters</p>
+	<p class="speaker-role">University of Wisconsin-Madison</p>
+	</div>
+	</div>
+
 </div>
 </div>
 
