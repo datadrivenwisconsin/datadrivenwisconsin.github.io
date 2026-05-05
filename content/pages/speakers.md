@@ -54,6 +54,15 @@ Save_as: pages/speakers.html
 	</div>
 	</div>
 
+	<div class="speaker-card-full">
+	<img src="/images/past-events/2026/haydin.jpg" alt="Headshot">
+	<div class="speaker-info">
+	<h4>AgentOps for Data Teams: Observability, Evals, and Control for Production AI</h4>
+	<p class="speaker-name">Brian Haydin</p>
+	<p class="speaker-role">Concurrency</p>
+	</div>
+	</div>
+
 </div>
 </div>
 
