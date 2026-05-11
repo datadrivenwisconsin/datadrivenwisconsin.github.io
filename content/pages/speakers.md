@@ -63,6 +63,24 @@ Save_as: pages/speakers.html
 	</div>
 	</div>
 
+	<div class="speaker-card-full">
+	<img src="/images/past-events/2026/mcqueen.jpg" alt="Headshot">
+	<div class="speaker-info">
+	<h4>Designing Scalable Intelligent Document Processing Platforms</h4>
+	<p class="speaker-name">Andrew McQueen</p>
+	<p class="speaker-role">Xorbix</p>
+	</div>
+	</div>
+
+	<div class="speaker-card-full">
+	<img src="/images/past-events/2026/mccune.jpg" alt="Headshot">
+	<div class="speaker-info">
+	<h4>Data Contracts in Practice: Shifting Reliability Left</h4>
+	<p class="speaker-name">Sam McCune</p>
+	<p class="speaker-role">Xorbix</p>
+	</div>
+	</div>
+
 </div>
 </div>
 
