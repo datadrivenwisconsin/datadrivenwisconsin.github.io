@@ -85,6 +85,38 @@
 
     <script src="{{ SITEURL }}/theme/js/main.js"></script>
     {% block extra_js %}{% endblock %}
+
+    <div id="speaker-modal" class="speaker-modal" role="dialog" aria-hidden="true" aria-labelledby="speaker-modal-title">
+        <div class="speaker-modal-overlay" onclick="closeSpeakerModal()"></div>
+        <div class="speaker-modal-content">
+        	<!--
+            <button class="speaker-modal-close" onclick="closeSpeakerModal()" aria-label="Close modal">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+            -->
+            <div class="speaker-modal-header">
+                <img id="speaker-modal-image" src="" alt="" class="speaker-modal-image">
+                <div class="speaker-modal-header-info">
+                    <h2 id="speaker-modal-title"></h2>
+                    <p id="speaker-modal-name" class="speaker-name"></p>
+                    <p id="speaker-modal-role" class="speaker-role"></p>
+                </div>
+            </div>
+            <div class="speaker-modal-body">
+                <div class="speaker-modal-section">
+                    <h3>Talk Abstract</h3>
+                    <div id="speaker-modal-abstract"></div>
+                </div>
+                <div class="speaker-modal-section">
+                    <h3>Speaker Bio</h3>
+                    <div id="speaker-modal-bio"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
 
