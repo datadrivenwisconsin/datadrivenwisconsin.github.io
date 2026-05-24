@@ -97,6 +97,67 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     `;
     document.head.appendChild(style);
+
+    // Speaker Modal Functionality
+    const speakerModal = document.getElementById('speaker-modal');
+    
+    // Add click handlers to speaker titles
+    document.querySelectorAll('.speaker-title-link').forEach(titleLink => {
+        titleLink.addEventListener('click', function() {
+            const card = this.closest('.speaker-card-full');
+            const speakerId = card.getAttribute('data-speaker-id');
+            
+            const titleText = this.textContent;
+            const nameText = card.querySelector('.speaker-name').textContent;
+            const roleText = card.querySelector('.speaker-role').textContent;
+            const bioHtml = card.querySelector('.speaker-bio').innerHTML;
+            const abstractHtml = card.querySelector('.speaker-abstract').innerHTML;
+            const imageUrl = card.querySelector('img').src;
+            
+            // Populate modal
+            document.getElementById('speaker-modal-title').textContent = titleText;
+            document.getElementById('speaker-modal-name').textContent = nameText;
+            document.getElementById('speaker-modal-role').textContent = roleText;
+            document.getElementById('speaker-modal-bio').innerHTML = bioHtml;
+            document.getElementById('speaker-modal-abstract').innerHTML = abstractHtml;
+            document.getElementById('speaker-modal-image').src = imageUrl;
+            document.getElementById('speaker-modal-image').alt = nameText;
+            
+            // Show modal
+            speakerModal.setAttribute('aria-hidden', 'false');
+            speakerModal.style.display = 'flex';
+            document.body.style.overflow = 'hidden';
+        });
+        
+        // Allow keyboard trigger (Enter/Space)
+        titleLink.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                this.click();
+            }
+        });
+    });
+    
+    // Close modal functions
+    function closeSpeakerModal() {
+        speakerModal.setAttribute('aria-hidden', 'true');
+        speakerModal.style.display = 'none';
+        document.body.style.overflow = '';
+    }
+    
+    // Close on Escape key
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && speakerModal.style.display === 'flex') {
+            closeSpeakerModal();
+        }
+    });
+    
+    // Close modal when clicking outside
+    speakerModal.addEventListener('click', function(e) {
+        if (e.target === this || e.target.classList.contains('speaker-modal-overlay')) {
+            closeSpeakerModal();
+        }
+    });
 });
 
 // Add mobile menu styles dynamically
