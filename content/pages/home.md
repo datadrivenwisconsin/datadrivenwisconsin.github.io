@@ -7,7 +7,7 @@ hide_title: False
 
 
 <center>
-<h2>August 12 at MSOE</h2>
+<h2>Wednesday, August 12 at MSOE</h2>
 
 <p>The seventh annual Data-Driven Wisconsin conference is coming to the Milwaukee School of Engineering. <br>Save the dates and stay tuned for speakers, schedule, and registration details!</p>
 
