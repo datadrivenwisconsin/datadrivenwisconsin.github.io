@@ -15,9 +15,11 @@ Save_as: pages/sponsors.html
 <div class="sponsor-card">
 <img src="/images/sponsors/_DS_Corporate_Primary_RGB.png" alt="Direct Supply">
 </div>
+<!--
 <div class="sponsor-card">
 <img src="/images/sponsors/Xorbix Logo - Complete Transparent (Black Text)).png" alt="Xorbix Technologies">
 </div>
+-->
 </div>
 </div>
 
