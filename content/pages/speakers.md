@@ -167,6 +167,22 @@ Save_as: pages/speakers.html
 	</div>
 	</div>
 
+	<div class="speaker-card-full" data-speaker-id="windau">
+	<img src="/images/past-events/2026/windau.jpg" alt="Headshot">
+	<div class="speaker-info">
+	<h4 class="speaker-title-link" role="button" tabindex="8">Beyond the Batch: Sub-Second Analytics on Streaming Data with Apache Druid</h4>
+	<p class="speaker-name">Katie Windau</p>
+	<p class="speaker-role">Netflix</p>
+	<!-- Hidden data for modal -->
+    <div class="speaker-bio" style="display:none;">
+		<p>Katie Windau is an Analytics Engineer at Netflix, and has 13 years of experience in tech, in both data engineering and data science roles.  Her expertise is in building pipelines that enable end users to reach actionable, accurate, & reliable insights from large amounts of data.</p>
+    </div>
+    <div class="speaker-abstract" style="display:none;">
+		<p>This session provides a technical deep-dive into Apache Druid, specifically tailored for data engineers who build data pipelines and data scientists who need immediate insights from them. We will deconstruct Druid’s unique hybrid architecture, which combines the best elements of column-oriented databases, search engines, and time-series databases.</p>
+    </div>
+	</div>
+	</div>
+
 </div>
 </div>
 
