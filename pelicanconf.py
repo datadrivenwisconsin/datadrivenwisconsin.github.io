@@ -14,6 +14,9 @@ DEFAULT_LANG = 'en'
 # Static paths
 STATIC_PATHS = ['images', 'files']
 
+# Working/source files kept in content but not published
+IGNORE_FILES = ['_drafts']
+
 # URL settings
 PAGE_URL = 'pages/{slug}.html'
 PAGE_SAVE_AS = 'pages/{slug}.html'

@@ -188,10 +188,10 @@ Event_venue: MSOE Diercks Hall / Direct Supply Innovation & Technology Center, M
 <h3 class="tier-title">Zettabyte Sponsors</h3>
 <div class="tier-sponsors zettabyte">
 <div class="sponsor-card featured">
-<img src="/images/sponsors/Xorbix Logo - Complete Transparent (Black Text)).png" alt="Xorbix Technologies">
+<img src="/images/sponsors/xorbix.png" alt="Xorbix Technologies">
 </div>
 <div class="sponsor-card featured">
-<img src="/images/sponsors/NV_Primary.png" alt="nvisia">
+<img src="/images/sponsors/nvisia.png" alt="nvisia">
 </div>
 </div>
 </div>
@@ -200,13 +200,13 @@ Event_venue: MSOE Diercks Hall / Direct Supply Innovation & Technology Center, M
 <h3 class="tier-title">Exabyte Sponsors</h3>
 <div class="tier-sponsors exabyte">
 <div class="sponsor-card">
-<img src="/images/sponsors/Alation-Logo-Primary.png" alt="Alation">
+<img src="/images/sponsors/alation.png" alt="Alation">
 </div>
 <div class="sponsor-card">
-<img src="/images/sponsors/SysLogic_Logo_wTag_OD_RGB_highres.png" alt="SysLogic">
+<img src="/images/sponsors/syslogic.png" alt="SysLogic">
 </div>
 <div class="sponsor-card">
-<img src="/images/sponsors/Databricks Logo Primary Lockup primary-lockup-full-color-rgb-4000x634.png" alt="Databricks">
+<img src="/images/sponsors/databricks.png" alt="Databricks">
 </div>
 </div>
 </div>
@@ -215,10 +215,10 @@ Event_venue: MSOE Diercks Hall / Direct Supply Innovation & Technology Center, M
 <h3 class="tier-title">Hosting Sponsors</h3>
 <div class="tier-sponsors hosting">
 <div class="sponsor-card">
-<img src="/images/sponsors/MSOE logo.png" alt="Milwaukee School of Engineering">
+<img src="/images/sponsors/msoe.png" alt="Milwaukee School of Engineering">
 </div>
 <div class="sponsor-card">
-<img src="/images/sponsors/_DS_Corporate_Primary_RGB.png" alt="Direct Supply">
+<img src="/images/sponsors/direct-supply.png" alt="Direct Supply">
 </div>
 </div>
 </div>
