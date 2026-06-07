@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sponsors — Data-Driven Wisconsin 2026 (Mockup)</title>
+<style>
+  /* ============================================================
+     DESIGN TOKENS  — tune these to match the live site exactly.
+     These values approximate the current GitHub Pages look:
+     a light page, dark slate text, teal→blue brand accents.
+     ============================================================ */
+  :root{
+    --brand-teal:#1D9E75;
+    --brand-blue:#185FA5;
+    --brand-ink:#0f2233;          /* dark slate headings */
+    --text:#27323b;
+    --text-muted:#5d6b76;
+    --page-bg:#f6f8f9;
+    --card-bg:#ffffff;
+    --border:#e3e8ec;
+    --radius:14px;
+    --shadow:0 1px 3px rgba(16,34,51,.06), 0 6px 24px rgba(16,34,51,.05);
+    --maxw:1080px;
+    --font: "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--page-bg);color:var(--text);font-family:var(--font);line-height:1.6;}
+  a{color:var(--brand-blue);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+
+  /* ---- simple nav stand-in (RJ keeps the real site nav) ---- */
+  .nav{background:var(--brand-ink);color:#fff;}
+  .nav .wrap{max-width:var(--maxw);margin:0 auto;display:flex;align-items:center;gap:28px;
+    padding:14px 24px;font-size:.95rem;}
+  .nav .brand{font-weight:700;letter-spacing:.3px;color:#fff;margin-right:auto;}
+  .nav .brand span{background:linear-gradient(90deg,var(--brand-teal),var(--brand-blue));
+    -webkit-background-clip:text;background-clip:text;color:transparent;}
+  .nav a{color:#cdd7df;}
+  .nav a:hover{color:#fff;text-decoration:none;}
+  .nav a.active{color:#fff;font-weight:600;}
+
+  /* ---- page header ---- */
+  header.page{max-width:var(--maxw);margin:0 auto;padding:56px 24px 8px;text-align:center;}
+  header.page h1{font-size:2.6rem;margin:0 0 10px;color:var(--brand-ink);
+    letter-spacing:-.5px;}
+  header.page h1 .accent{background:linear-gradient(90deg,var(--brand-teal),var(--brand-blue));
+    -webkit-background-clip:text;background-clip:text;color:transparent;}
+  header.page p.lede{font-size:1.15rem;color:var(--text-muted);max-width:640px;margin:0 auto;}
+
+  main{max-width:var(--maxw);margin:0 auto;padding:24px 24px 64px;}
+
+  /* ---- section scaffolding ---- */
+  section.tier{margin-top:48px;}
+  .tier-head{display:flex;align-items:baseline;gap:14px;margin-bottom:6px;}
+  .tier-head h2{margin:0;color:var(--brand-ink);font-size:1.9rem;letter-spacing:-.3px;}
+  /* heading size steps down by tier (logos already step down via .logo height) */
+  section.tier[data-accent="zetta"] .tier-head h2{font-size:2.2rem;}
+  section.tier[data-accent="exa"]   .tier-head h2{font-size:1.8rem;}
+  section.tier[data-accent="peta"]  .tier-head h2{font-size:1.5rem;}
+  section.tier[data-accent="host"]  .tier-head h2{font-size:1.7rem;}
+  .tier-rule{height:3px;border:0;border-radius:3px;margin:0 0 22px;
+    background:linear-gradient(90deg,var(--brand-teal),var(--brand-blue));}
+  .tier-note{color:var(--text-muted);font-size:.92rem;margin:-12px 0 18px;}
+
+  /* tier accent strip colors (data-* keeps it easy for RJ) */
+  section.tier[data-accent="zetta"] .tier-rule{background:linear-gradient(90deg,#1D9E75,#0F6E56);}
+  section.tier[data-accent="exa"]   .tier-rule{background:linear-gradient(90deg,#378ADD,#185FA5);}
+  section.tier[data-accent="peta"]  .tier-rule{background:linear-gradient(90deg,#888780,#5F5E5A);}
+  section.tier[data-accent="host"]  .tier-rule{background:linear-gradient(90deg,#EF9F27,#BA7517);}
+
+  /* ---- sponsor grid + cards ---- */
+  .grid{display:grid;gap:22px;}
+  .grid.cols-2{grid-template-columns:repeat(auto-fit,minmax(300px,1fr));}
+  .grid.cols-3{grid-template-columns:repeat(auto-fit,minmax(240px,1fr));}
+  .grid.cols-4{grid-template-columns:repeat(auto-fit,minmax(190px,1fr));}
+
+  .sponsor{background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);
+    box-shadow:var(--shadow);padding:26px 22px;display:flex;flex-direction:column;
+    align-items:center;text-align:center;transition:transform .15s ease, box-shadow .15s ease;}
+  .sponsor:hover{transform:translateY(-3px);box-shadow:0 4px 10px rgba(16,34,51,.08),0 14px 36px rgba(16,34,51,.08);}
+  .sponsor .logo{display:flex;align-items:center;justify-content:center;width:100%;}
+  /* logo link wrapper — fills the logo box, no underline, subtle hover */
+  .sponsor .logo a{display:flex;align-items:center;justify-content:center;width:100%;height:100%;}
+  .sponsor .logo a:hover{text-decoration:none;opacity:.85;}
+  .sponsor.zetta .logo{height:120px;}
+  .sponsor.exa   .logo{height:92px;}
+  .sponsor.peta  .logo{height:70px;}
+  .sponsor.host  .logo{height:104px;}
+  .sponsor .logo img{max-width:100%;max-height:100%;object-fit:contain;}
+
+  /* logo placeholder while real assets are dropped in */
+  .logo .ph{width:90%;height:100%;border:2px dashed #c4ccd2;border-radius:10px;
+    display:flex;align-items:center;justify-content:center;color:#9aa6ae;font-size:.85rem;
+    padding:8px;}
+
+  /* ---- special-designation badges (BELOW the logo) ---- */
+  .badges{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:16px;}
+  .badge{display:inline-flex;align-items:center;gap:6px;font-size:.8rem;font-weight:600;
+    padding:5px 12px;border-radius:999px;line-height:1;letter-spacing:.2px;}
+  .badge svg{width:14px;height:14px;}
+  .badge.keynote{background:#EEEDFE;color:#3C3489;}
+  .badge.dinner {background:#FAEEDA;color:#854F0B;}
+  .badge.student{background:#E1F5EE;color:#0F6E56;}
+  .badge.reception{background:#E6F1FB;color:#0C447C;}
+  .badge.host   {background:#F1EFE8;color:#444441;}
+
+  /* ---- CTA ---- */
+  .cta{margin-top:64px;background:var(--brand-ink);border-radius:18px;padding:42px 32px;
+    text-align:center;color:#fff;}
+  .cta h2{margin:0 0 8px;font-size:1.6rem;color:#fff;}
+  .cta p{margin:0 auto 22px;max-width:560px;color:#c8d2da;}
+  .btn{display:inline-block;background:linear-gradient(90deg,var(--brand-teal),var(--brand-blue));
+    color:#fff;font-weight:600;padding:13px 28px;border-radius:10px;}
+  .btn:hover{text-decoration:none;opacity:.93;}
+
+  .mock-flag{max-width:var(--maxw);margin:18px auto 0;padding:0 24px;}
+  .mock-flag div{background:#FCEBEB;border:1px solid #F09595;color:#791F1F;border-radius:10px;
+    padding:10px 16px;font-size:.88rem;}
+</style>
+</head>
+<body>
+
+  <!-- NAV (stand-in — RJ keeps the existing site header/nav) -->
+  <nav class="nav"><div class="wrap">
+    <span class="brand">Data-Driven <span>Wisconsin</span></span>
+    <a href="#">Home</a><a href="#">Speakers</a><a href="#">Schedule</a>
+    <a href="#">Attending</a><a href="#" class="active">Sponsors</a>
+    <a href="#">About</a><a href="#">Past Events</a>
+  </div></nav>
+
+  <div class="mock-flag"><div>Mockup only — colors, fonts &amp; nav are placeholders to be matched to the live site. Logos shown as placeholders; drop real assets into <code>/images/sponsors/</code>.</div></div>
+
+  <header class="page">
+    <h1>Our <span class="accent">Sponsors</span></h1>
+    <p class="lede">Thank you to the organizations making Data-Driven Wisconsin 2026 possible. Their support grows the data and applied-AI ecosystem across Wisconsin and the upper Midwest.</p>
+  </header>
+
+  <main>
+
+    <!-- NOTE for RJ: every logo is wrapped in <a href="#"> — replace each "#" with the
+         sponsor's website URL (Randy will supply). Keep target/rel if you want new-tab:
+         e.g. <a href="https://xorbix.com" target="_blank" rel="noopener"> -->
+
+    <!-- ============ ZETTABYTE ============ -->
+    <section class="tier" data-accent="zetta">
+      <div class="tier-head"><h2>Zettabyte</h2></div>
+      <hr class="tier-rule">
+      <div class="grid cols-3">
+
+        <div class="sponsor zetta">
+          <div class="logo"><a href="#" aria-label="Xorbix Technologies website"><div class="ph">Xorbix Technologies logo</div></a></div>
+          <div class="badges">
+            <span class="badge dinner"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 2v7c0 1.1.9 2 2 2h0a2 2 0 002-2V2M5 2v20M16 2c-1.7 0-3 2-3 5s1.3 5 3 5m0 0v10"/></svg>Networking Dinner Host</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============ EXABYTE ============ -->
+    <section class="tier" data-accent="exa">
+      <div class="tier-head"><h2>Exabyte</h2></div>
+      <hr class="tier-rule">
+      <!-- No confirmed Exabyte sponsors yet. Placeholder slots — delete or fill as sponsors confirm. -->
+      <div class="grid cols-3">
+
+        <div class="sponsor exa">
+          <div class="logo"><a href="#" aria-label="Sponsor website"><div class="ph">Exabyte sponsor logo</div></a></div>
+        </div>
+        <div class="sponsor exa">
+          <div class="logo"><a href="#" aria-label="Sponsor website"><div class="ph">Exabyte sponsor logo</div></a></div>
+        </div>
+        <div class="sponsor exa">
+          <div class="logo"><a href="#" aria-label="Sponsor website"><div class="ph">Exabyte sponsor logo</div></a></div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============ PETABYTE ============ -->
+    <section class="tier" data-accent="peta">
+      <div class="tier-head"><h2>Petabyte</h2></div>
+      <hr class="tier-rule">
+      <!-- No confirmed Petabyte sponsors yet. Placeholder slots — delete or fill as sponsors confirm. -->
+      <div class="grid cols-4">
+
+        <div class="sponsor peta">
+          <div class="logo"><a href="#" aria-label="Sponsor website"><div class="ph">Petabyte sponsor logo</div></a></div>
+        </div>
+        <div class="sponsor peta">
+          <div class="logo"><a href="#" aria-label="Sponsor website"><div class="ph">Petabyte sponsor logo</div></a></div>
+        </div>
+        <div class="sponsor peta">
+          <div class="logo"><a href="#" aria-label="Sponsor website"><div class="ph">Petabyte sponsor logo</div></a></div>
+        </div>
+        <div class="sponsor peta">
+          <div class="logo"><a href="#" aria-label="Sponsor website"><div class="ph">Petabyte sponsor logo</div></a></div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============ HOSTING SPONSORS (below the paid tiers) ============ -->
+    <section class="tier" data-accent="host">
+      <div class="tier-head"><h2>Hosting Sponsors</h2></div>
+      <hr class="tier-rule">
+      <p class="tier-note">Our venue and infrastructure partners who make the event possible.</p>
+      <div class="grid cols-2">
+
+        <div class="sponsor host">
+          <div class="logo"><a href="#" aria-label="Milwaukee School of Engineering website"><div class="ph">MSOE logo</div></a></div>
+        </div>
+
+        <div class="sponsor host">
+          <div class="logo"><a href="#" aria-label="Direct Supply website"><div class="ph">Direct Supply logo</div></a></div>
+          <div class="badges">
+            <span class="badge student"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10L12 5 2 10l10 5 10-5zM6 12v5c0 1 2.7 3 6 3s6-2 6-3v-5"/></svg>Student Attendee Support</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============ CTA ============ -->
+    <div class="cta">
+      <h2>Interested in Sponsoring?</h2>
+      <p>Join our community of sponsors and connect with data professionals across Wisconsin and the Midwest.</p>
+      <a class="btn" href="mailto:Organizers@datadrivenwi.org">Contact Us</a>
+    </div>
+
+  </main>
+
+</body>
+</html>

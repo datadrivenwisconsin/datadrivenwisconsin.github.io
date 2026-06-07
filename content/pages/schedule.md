@@ -4,16 +4,85 @@ Template: page
 Save_as: pages/schedule.html
 
 <section class="schedule-page">
-<h1 class="coming-soon-heading">Schedule Coming Soon!</h1>
-<div class="schedule-coming-soon">
-<div class="coming-soon-icon">
-<svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-<rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
-<line x1="16" y1="2" x2="16" y2="6"></line>
-<line x1="8" y1="2" x2="8" y2="6"></line>
-<line x1="3" y1="10" x2="21" y2="10"></line>
-</svg>
+<p class="schedule-date">Wednesday, August 12, 2026 · MSOE, Milwaukee</p>
+<p class="coming-soon-message">Speakers will be programmed to tracks by early July. Here's the overall shape of the day.</p>
+
+<!-- ============================================================
+     ADDING TALKS LATER
+     When speakers are programmed, add talk lines inside each
+     <div class="track-info"> like this — nothing else moves:
+       <a href="/pages/speakers.html#vetter">Talk title</a>
+       <p class="speaker">10:00 AM · Cameron Vetter</p>
+     (Add id="vetter" etc. to the matching speaker card so the link jumps.)
+     If Session 3 collapses to one track in the NVIDIA Auditorium,
+     delete its Track 2 cell and relabel Track 1.
+     Row shades: logistics | keynote | session
+     ============================================================ -->
+
+<div class="schedule-table">
+
+<div class="schedule-row logistics">
+  <div class="schedule-time">7:30 AM</div>
+  <div class="schedule-event"><h3>Registration &amp; Breakfast <span class="event-duration">(1 hr)</span></h3></div>
 </div>
-<p class="coming-soon-message">We're putting together an exciting lineup of sessions, speakers, and workshops for the next Data-Driven Wisconsin. Stay tuned!</p>
+
+<div class="schedule-row keynote">
+  <div class="schedule-time">8:30 AM</div>
+  <div class="schedule-event"><h3>Keynote <span class="event-duration">(1 hr)</span></h3></div>
+</div>
+
+<div class="schedule-row logistics">
+  <div class="schedule-time">9:30 AM</div>
+  <div class="schedule-event"><h3>Break <span class="event-duration">(30 min)</span></h3></div>
+</div>
+
+<div class="schedule-row session">
+  <div class="schedule-time">10:00 AM</div>
+  <div class="schedule-event">
+    <h3>Session 1 <span class="event-duration">(1 hr 45 min)</span></h3>
+    <div class="session-tracks">
+      <div class="track-info"><strong>Track 1</strong><p class="location">Diercks Hall</p></div>
+      <div class="track-info"><strong>Track 2</strong><p class="location">Direct Supply ITC</p></div>
+    </div>
+  </div>
+</div>
+
+<div class="schedule-row logistics">
+  <div class="schedule-time">11:45 AM</div>
+  <div class="schedule-event"><h3>Lunch <span class="event-duration">(1 hr)</span></h3></div>
+</div>
+
+<div class="schedule-row session">
+  <div class="schedule-time">12:45 PM</div>
+  <div class="schedule-event">
+    <h3>Session 2 <span class="event-duration">(1 hr 45 min)</span></h3>
+    <div class="session-tracks">
+      <div class="track-info"><strong>Track 1</strong><p class="location">Diercks Hall</p></div>
+      <div class="track-info"><strong>Track 2</strong><p class="location">Direct Supply ITC</p></div>
+    </div>
+  </div>
+</div>
+
+<div class="schedule-row logistics">
+  <div class="schedule-time">2:30 PM</div>
+  <div class="schedule-event"><h3>Break <span class="event-duration">(30 min)</span></h3></div>
+</div>
+
+<div class="schedule-row session">
+  <div class="schedule-time">3:00 PM</div>
+  <div class="schedule-event">
+    <h3>Session 3 <span class="event-duration">(1 hr 45 min)</span></h3>
+    <div class="session-tracks">
+      <div class="track-info"><strong>Track 1</strong><p class="location">Diercks Hall</p></div>
+      <div class="track-info"><strong>Track 2</strong><p class="location">Direct Supply ITC</p></div>
+    </div>
+  </div>
+</div>
+
+<div class="schedule-row logistics">
+  <div class="schedule-time">4:45 PM</div>
+  <div class="schedule-event"><h3>Appetizers, Dinner &amp; Networking <span class="event-duration">(until 7:00)</span></h3></div>
+</div>
+
 </div>
 </section>

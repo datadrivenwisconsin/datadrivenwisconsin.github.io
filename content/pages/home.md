@@ -28,7 +28,7 @@ hide_title: False
     <div class="container">
         <h2 class="section-title">Empowering Data-Driven Business</h2>
         <p class="hero-description" style="text-align: center; max-width: 700px; margin: 0 auto var(--spacing-xl);">Our mission is to foster and grow the data ecosystem in Wisconsin and the upper Midwest. Join software engineers, data scientists, and data professionals to explore new tools and techniques.</p>
-        <h3 class="section-subtitle" style="text-align: center; margin-bottom: var(--spacing-lg);">Conference Themes</h3>
+        <h3 class="section-subtitle" style="text-align: center; margin-bottom: var(--spacing-lg); font-weight: 700;">Conference Themes</h3>
         <div class="theme-cards">
             <div class="theme-card">
                 <div class="theme-icon">🤖</div>
@@ -38,12 +38,12 @@ hide_title: False
             <div class="theme-card">
                 <div class="theme-icon">👥</div>
                 <h3>Empowering People</h3>
-                <p>Tools and techniques to grow careers in data science and engineering</p>
+                <p>Tools &amp; approaches to grow careers in data science, engineering, and applied AI</p>
             </div>
             <div class="theme-card">
                 <div class="theme-icon">🏢</div>
                 <h3>Business Impact</h3>
-                <p>Real-world applications and lessons learned from industry leaders</p>
+                <p>Real-world applications and lessons learned from regional industry leaders</p>
             </div>
         </div>
     </div>
