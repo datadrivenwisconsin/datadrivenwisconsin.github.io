@@ -10,7 +10,7 @@ Great local speakers sharing their lessons learned from putting the latest data 
 Over 200 industry professionals, predominently in the software, data, and AI fields, attend each year.
 We paused for a few years after the COVID pandemic, but we returned in 2024 and has been running continuously since.
 
-<section class="team-page">
+<section class="team-page" id="organizers">
 <p class="team-intro">Data-Driven Wisconsin is organized by a dedicated group of volunteer professionals passionate about growing the data ecosystem in Wisconsin.</p>
 
 <div class="team-grid">

@@ -826,7 +826,7 @@ section {
     border-radius: var(--radius-md);
     margin-bottom: var(--spacing-md);
     align-items: center;
-    height: 220px;
+    min-height: 147px;
 }
 
 /* Individual Speaker Cards - Session 1 Track 1 */

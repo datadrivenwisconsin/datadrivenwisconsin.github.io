@@ -127,6 +127,9 @@ document.addEventListener('DOMContentLoaded', function() {
             speakerModal.setAttribute('aria-hidden', 'false');
             speakerModal.style.display = 'flex';
             document.body.style.overflow = 'hidden';
+
+            // Always start at the top of the content
+            speakerModal.querySelector('.speaker-modal-content').scrollTop = 0;
         });
         
         // Allow keyboard trigger (Enter/Space)
