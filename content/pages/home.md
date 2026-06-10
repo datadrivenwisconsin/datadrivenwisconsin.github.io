@@ -9,16 +9,38 @@ hide_title: False
 <center>
 <h2>Wednesday, August 12 at MSOE</h2>
 
-<p>The seventh annual Data-Driven Wisconsin conference is coming to the Milwaukee School of Engineering. <br>Save the dates and stay tuned for speakers, schedule, and registration details!</p>
+<p class="intro-announce">Registration is now open.</p>
+
+<p class="intro-text">Join us August 12 at MSOE for a day of data-driven insight, practical sessions, and connection with Wisconsin's analytics community. Our keynote speaker will be announced by the end of June, and we'll be slotting talks into the schedule over the next week. Space is limited to 250 attendees &mdash; register early to secure your seat.</p>
 
 </center>
+
+<!-- Registration Pricing -->
+<section class="reg-pricing">
+    <div class="reg-price-card">
+        <h3>General Admission</h3>
+        <p class="reg-price">$119</p>
+        <p class="reg-price-desc">Includes all sessions and meals</p>
+        <p class="reg-early">Early rates: <strong>$99</strong> through June 30 &middot; <strong>$109</strong> through July 13</p>
+    </div>
+    <div class="reg-price-card student">
+        <h3>Student Admission</h3>
+        <p class="reg-price">$59</p>
+        <p class="reg-price-desc">50 seats available</p>
+        <p class="reg-early">Early rates: <strong>$39</strong> through June 30 &middot; <strong>$49</strong> through July 13</p>
+    </div>
+</section>
+
+<div class="reg-cta">
+    <a href="https://cvent.me/WxdxOa" target="_blank" rel="noopener" class="btn btn-register btn-lg">Register</a>
+</div>
 
 <!-- Hero Banner -->
 <section class="hero hero-coming-soon">
     <div class="hero-content">
         <div class="hero-actions">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeC_i7pYNXydy4xzwpQejUJ4gDke9nzWRAA21R0urNB0XTVeg/viewform" class="btn btn-primary btn-lg">Call for Talks</a>
-            <a href="./pages/past-events.html" class="btn btn-outline btn-lg">View Past Events</a>
+            <a href="./pages/schedule.html" class="btn btn-outline btn-lg">View Schedule</a>
+            <a href="./pages/speakers.html" class="btn btn-outline btn-lg">View Speakers</a>
         </div>
     </div>
 </section>
