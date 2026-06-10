@@ -11,6 +11,8 @@
     --color-accent: #F4B223;         /* Gold accent */
     --color-cta: #E85D04;            /* Orange CTA - pops against blue */
     --color-cta-hover: #D64F00;      /* Darker orange for hover */
+    --color-register: #D32F2F;       /* Red - Register primary CTA */
+    --color-register-hover: #B71C1C; /* Darker red for hover */
     
     --color-text: #1a1a2e;
     --color-text-light: #4a5568;
@@ -157,11 +159,6 @@ h4 { font-size: 1.25rem; }
     flex: 0 0 auto;
 }
 
-.nav-container::after {
-    content: '';
-    flex: 1;
-}
-
 .nav-links a {
     color: var(--color-text);
     font-weight: 500;
@@ -251,6 +248,9 @@ h4 { font-size: 1.25rem; }
 
 /* Nav CTA Button */
 .nav-cta {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
     margin-left: var(--spacing-md);
 }
 
@@ -296,6 +296,18 @@ h4 { font-size: 1.25rem; }
     color: white;
 }
 
+.btn-register {
+    background: var(--color-register);
+    color: white;
+    border-color: var(--color-register);
+}
+
+.btn-register:hover {
+    background: var(--color-register-hover);
+    border-color: var(--color-register-hover);
+    color: white;
+}
+
 .btn-lg {
     padding: 1rem 2rem;
     font-size: 1.05rem;
@@ -319,6 +331,7 @@ h4 { font-size: 1.25rem; }
     display: flex;
     justify-content: center;
     text-align: center;
+    padding: var(--spacing-md) var(--spacing-md);
 }
 
 .hero-coming-soon .hero-content {
@@ -456,6 +469,7 @@ section {
 
 .themes {
     background: var(--color-bg-alt);
+    padding-top: var(--spacing-md);
 }
 
 .theme-cards {
@@ -688,6 +702,77 @@ section {
 .pricing-card p {
     color: rgba(255, 255, 255, 0.7);
     margin-bottom: var(--spacing-md);
+}
+
+/* ========================================
+   HOME INTRO + REGISTRATION PRICING
+   ======================================== */
+
+.intro-announce {
+    font-family: var(--font-heading);
+    color: var(--color-primary);
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin: var(--spacing-sm) 0;
+}
+
+.intro-text {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.reg-pricing {
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing-lg);
+    flex-wrap: wrap;
+    max-width: 820px;
+    margin: 1.67rem auto;
+    padding: 0 var(--spacing-md);
+}
+
+.reg-price-card {
+    flex: 1;
+    min-width: 280px;
+    background: var(--color-bg-alt);
+    border: 2px solid var(--color-primary);
+    border-radius: var(--radius-lg);
+    padding: 1.67rem;
+    text-align: center;
+    box-shadow: var(--shadow-sm);
+}
+
+.reg-price-card h3 {
+    font-family: var(--font-body);
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--color-secondary);
+    margin-bottom: var(--spacing-xs);
+}
+
+.reg-price {
+    font-family: var(--font-heading);
+    font-size: 3rem;
+    line-height: 1;
+    color: var(--color-text);
+    margin-bottom: var(--spacing-xs);
+}
+
+.reg-price-desc {
+    color: var(--color-text-light);
+    margin-bottom: var(--spacing-sm);
+}
+
+.reg-early {
+    font-size: 1rem;
+    color: var(--color-text-muted);
+    margin: 0;
+}
+
+.reg-cta {
+    text-align: center;
+    margin: var(--spacing-lg) 0 0;
 }
 
 /* ========================================
@@ -2001,11 +2086,15 @@ section {
 }
 
 @media (max-width: 768px) {
-    .nav-links,
-    .nav-cta {
+    .nav-links {
         display: none;
     }
-    
+
+    /* Keep Register visible on mobile; sit it beside the hamburger */
+    .nav-cta {
+        flex: 0 0 auto;
+    }
+
     .mobile-menu-toggle {
         display: flex;
     }
