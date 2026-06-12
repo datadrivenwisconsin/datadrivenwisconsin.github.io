@@ -41,6 +41,7 @@ hide_title: False
         <div class="hero-actions">
             <a href="./pages/schedule.html" class="btn btn-outline btn-lg">View Schedule</a>
             <a href="./pages/speakers.html" class="btn btn-outline btn-lg">View Speakers</a>
+            <a href="https://docs.google.com/document/d/1ZCAjeaASEqA4umYU3IeWmivTjjsifTHf/edit?usp=sharing&ouid=115351054218124804988&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-lg">Want to Sponsor</a>
         </div>
     </div>
 </section>

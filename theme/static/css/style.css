@@ -991,6 +991,27 @@ section {
     font-style: italic;
 }
 
+.speaker-linkedin {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    margin-top: var(--spacing-xs);
+    color: #0a66c2;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.speaker-linkedin:hover,
+.speaker-linkedin:focus-visible {
+    color: #004182;
+    transform: translateY(-1px);
+}
+
+.speaker-linkedin-icon {
+    display: block;
+}
+
 .speakers-grid-full {
     display: grid;
     grid-template-columns: 1fr 1fr;
