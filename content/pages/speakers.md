@@ -28,6 +28,9 @@ Save_as: pages/speakers.html
 	<h4 class="speaker-title-link" role="button" tabindex="0">Hacky, Useful, Effective: How Our LLM Strategy Evolved</h4>
 	<p class="speaker-name">Jack Flitcroft</p>
 	<p class="speaker-role">Juno</p>
+	<a class="speaker-linkedin" href="https://www.linkedin.com/in/jack-flitcroft-92b6a417b/" target="_blank" rel="noopener noreferrer" aria-label="Jack Flitcroft on LinkedIn">
+	<svg class="speaker-linkedin-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true" focusable="false"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.124 2.062 2.062 0 0 1 0 4.124zM7.119 20.452H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
+	</a>
 	<div class="speaker-bio" style="display:none;">
             <p>Jack is the co-founder and Head of AI at Juno, a tax technology startup building AI-native tools for tax professionals. A 2022 computer science graduate of MSOE, he got his start in healthcare tech before moving into the startup world, where he now leads the development of intelligent document understanding systems that power real-world tax workflows.</p>
     </div>
@@ -49,6 +52,9 @@ Save_as: pages/speakers.html
 	<h4 class="speaker-title-link" role="button" tabindex="1">AgentOps for Data Teams: Observability, Evals, and Control for Production AI</h4>
 	<p class="speaker-name">Brian Haydin</p>
 	<p class="speaker-role">Concurrency</p>
+	<a class="speaker-linkedin" href="https://www.linkedin.com/in/brianhaydin/" target="_blank" rel="noopener noreferrer" aria-label="Brian Haydin on LinkedIn">
+	<svg class="speaker-linkedin-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true" focusable="false"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.124 2.062 2.062 0 0 1 0 4.124zM7.119 20.452H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
+	</a>
 	<!-- Hidden data for modal -->
     <div class="speaker-bio" style="display:none;">
     	<p>Brian Haydin is a Solution Architect at Concurrency, where he helps organizations design and deliver practical AI, data, and Microsoft cloud solutions. He works with clients on enterprise AI strategy, Microsoft Fabric, Azure, Copilot, and agent-based application patterns, with a focus on moving beyond demos into reliable business outcomes. Brian is also active in the regional technology community and enjoys translating complex technical ideas into clear, real-world stories.</p>
@@ -67,6 +73,9 @@ Save_as: pages/speakers.html
 	<h4 class="speaker-title-link" role="button" tabindex="2">Directing the Machine: What Happens When You Give AI Agents Structure Instead of Hope</h4>
 	<p class="speaker-name">James Lembke</p>
 	<p class="speaker-role">Milwaukee School of Engineering</p>
+	<a class="speaker-linkedin" href="https://www.linkedin.com/in/james-lembke-a2042a13/" target="_blank" rel="noopener noreferrer" aria-label="James Lembke on LinkedIn">
+	<svg class="speaker-linkedin-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true" focusable="false"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.124 2.062 2.062 0 0 1 0 4.124zM7.119 20.452H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
+	</a>
 	<!-- Hidden data for modal -->
     <div class="speaker-bio" style="display:none;">
     	<p>James Lembke is an Associate Professor of Computer Science and Software Engineering at Milwaukee School of Engineering, where he teaches courses in networking, operating systems, systems programming, and web development. He holds a Ph.D. in Computer Science from Purdue University, and brings over two decades of industry experience spanning IBM, Direct Supply, and Socio Labs — working across the full software stack from OS kernel development to modern full-stack web applications. James has a growing interest in the intersection of AI and software engineering education, and is currently developing curriculum around effective human-AI collaboration for both undergraduate and graduate students. His work focuses on helping developers build structured, reliable approaches to working with AI coding agents — amplifying expertise rather than replacing judgment.</p>
@@ -87,6 +96,9 @@ Save_as: pages/speakers.html
 	<h4 class="speaker-title-link" role="button" tabindex="3">Data Contracts in Practice: Shifting Reliability Left</h4>
 	<p class="speaker-name">Sam McCune</p>
 	<p class="speaker-role">Xorbix</p>
+	<a class="speaker-linkedin" href="https://www.linkedin.com/in/s-mccune/" target="_blank" rel="noopener noreferrer" aria-label="Sam McCune on LinkedIn">
+	<svg class="speaker-linkedin-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true" focusable="false"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.124 2.062 2.062 0 0 1 0 4.124zM7.119 20.452H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
+	</a>
 	<!-- Hidden data for modal -->
     <div class="speaker-bio" style="display:none;">
     	<p>I am a Data Engineer with Xorbix Technologies Inc., with experience consulting for a large property and casualty insurance company. I primarily work with Azure Databricks and Snowflake, enabling scalable, cloud-based data solutions.</p>
@@ -106,6 +118,9 @@ Save_as: pages/speakers.html
 	<h4 class="speaker-title-link" role="button" tabindex="4">Designing Scalable Intelligent Document Processing Platforms</h4>
 	<p class="speaker-name">Andrew McQueen</p>
 	<p class="speaker-role">Xorbix</p>
+	<a class="speaker-linkedin" href="https://www.linkedin.com/in/andrew-t-mcqueen/" target="_blank" rel="noopener noreferrer" aria-label="Andrew McQueen on LinkedIn">
+	<svg class="speaker-linkedin-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true" focusable="false"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.124 2.062 2.062 0 0 1 0 4.124zM7.119 20.452H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
+	</a>
 	<!-- Hidden data for modal -->
     <div class="speaker-bio" style="display:none;">
     	<p>I am a data scientist at Xorbix Technologies working primarily on custom software solutions involving various types of data. I grew up in the suburbs of Chicago with an interest in math and studied statistics, analytics, and finance at the University of Iowa. I now live in Chicago and--outside of work--enjoy reading and playing piano and video games.</p>
@@ -124,6 +139,9 @@ Save_as: pages/speakers.html
 	<h4 class="speaker-title-link" role="button" tabindex="5">From Raw Signals to Real-Time Insights: Building an End-to-End IoT Pipeline with Databricks Zerobus</h4>
 	<p class="speaker-name">Kirat Mokha</p>
 	<p class="speaker-role">Milwaukee Tool</p>
+	<a class="speaker-linkedin" href="https://www.linkedin.com/in/kiratmokha/" target="_blank" rel="noopener noreferrer" aria-label="Kirat Mokha on LinkedIn">
+	<svg class="speaker-linkedin-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true" focusable="false"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.124 2.062 2.062 0 0 1 0 4.124zM7.119 20.452H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
+	</a>
 	<!-- Hidden data for modal -->
     <div class="speaker-bio" style="display:none;">
         <p>Kirat Mokha is a Machine Learning Engineer on Milwaukee Tool’s Analytics, Algorithms, and AI Applications (AAA) team. He earned his bachelor’s in Electrical Engineering and master’s in Machine Learning from MSOE. Kirat began his career at Milwaukee Tool as an EE intern, where he helped build standardized datalogging platforms for new product development. That early exposure sparked a lasting interest in data and algorithms, eventually leading him into ML engineering. Today, his work spans MLOps, data pipelines, Databricks, and IoT systems that bring real-time engineering data into analytics and ML workflows.</p>
@@ -140,6 +158,9 @@ Save_as: pages/speakers.html
 	<h4 class="speaker-title-link" role="button" tabindex="6">Vision Transformers: An Attractive Alternative to CNNs</h4>
 	<p class="speaker-name">John G. Peters</p>
 	<p class="speaker-role">University of Wisconsin-Madison</p>
+	<a class="speaker-linkedin" href="https://www.linkedin.com/in/john-geraldo-peters/" target="_blank" rel="noopener noreferrer" aria-label="John G. Peters on LinkedIn">
+	<svg class="speaker-linkedin-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true" focusable="false"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.124 2.062 2.062 0 0 1 0 4.124zM7.119 20.452H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
+	</a>
 	<!-- Hidden data for modal -->
     <div class="speaker-bio" style="display:none;">
     	<p>John Peters is a Ph.D. student in the Biomedical Data Science program at UW Madison. John's research involves using ViTs to create foundation models for scientific imaging and their applications to cellular imaging data. Through this process John has become an expert at applying various pre-trained, trained, and fine-tuned models to maximize performance on various predictive tasks. John graduated with a B.S. in Software Engineering from MSOE in Spring 2023. Through his undergraduate program, John participated in cross-disciplinary research that applied data science techniques to study genomics data sets and compare the efficacy of functional genomics sequencing techniques. </p>
@@ -158,6 +179,9 @@ Save_as: pages/speakers.html
 	<h4 class="speaker-title-link" role="button" tabindex="7">6 Years Later: Our AI Is Still Kicking – And Here's the Messy Reality</h4>
 	<p class="speaker-name">Cameron Vetter</p>
 	<p class="speaker-role">New Resources Consulting</p>
+	<a class="speaker-linkedin" href="https://www.linkedin.com/in/cameronvetter/" target="_blank" rel="noopener noreferrer" aria-label="Cameron Vetter on LinkedIn">
+	<svg class="speaker-linkedin-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true" focusable="false"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.124 2.062 2.062 0 0 1 0 4.124zM7.119 20.452H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
+	</a>
 	<!-- Hidden data for modal -->
         <div class="speaker-bio" style="display:none;">
             <p>Cameron Vetter is a technology professional, recognized for his exceptional contributions to the Microsoft ecosystem as a Microsoft Most Valuable Professional (MVP) in Artificial Intelligence. His MVP award, which he has earned seven years in a row, highlights his commitment to empowering developers, IT professionals, and organizations through education, mentorship, and thought leadership.</p>
@@ -186,6 +210,9 @@ Save_as: pages/speakers.html
 	<h4 class="speaker-title-link" role="button" tabindex="8">Beyond the Batch: Sub-Second Analytics on Streaming Data with Apache Druid</h4>
 	<p class="speaker-name">Katie Windau</p>
 	<p class="speaker-role">Netflix</p>
+	<a class="speaker-linkedin" href="https://www.linkedin.com/in/katiewindau/" target="_blank" rel="noopener noreferrer" aria-label="Katie Windau on LinkedIn">
+	<svg class="speaker-linkedin-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true" focusable="false"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.124 2.062 2.062 0 0 1 0 4.124zM7.119 20.452H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
+	</a>
 	<!-- Hidden data for modal -->
     <div class="speaker-bio" style="display:none;">
 		<p>Katie Windau is an Analytics Engineer at Netflix, and has 13 years of experience in tech, in both data engineering and data science roles.  Her expertise is in building pipelines that enable end users to reach actionable, accurate, & reliable insights from large amounts of data.</p>
