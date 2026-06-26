@@ -11,7 +11,7 @@ hide_title: False
 
 <p class="intro-announce">Registration is now open.</p>
 
-<p class="intro-text">Join us August 12 at MSOE for a day of data-driven insight, practical sessions, and connection with Wisconsin's analytics community. Our keynote speaker will be announced by the end of June, and we'll be slotting talks into the schedule over the next week. Space is limited to 250 attendees &mdash; register early to secure your seat.</p>
+<p class="intro-text">Join us August 12 at MSOE for a day of data-driven insight, practical sessions, and connection with Wisconsin's analytics community. Our keynote speakers will be unveiled in early July, and the session schedule is nearly full &mdash; just one speaking slot remains. Space is limited to 250 attendees &mdash; register early to secure your seat.</p>
 
 </center>
 

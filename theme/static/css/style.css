@@ -1268,6 +1268,13 @@ section {
     margin-top: 0.2rem;
 }
 
+.schedule-event .keynote-status {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--color-text-muted);
+    margin: 0.15rem 0 0;
+}
+
 .schedule-event .speaker {
     font-size: 0.9rem;
     margin-top: 0.2rem;
