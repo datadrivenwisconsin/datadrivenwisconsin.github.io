@@ -1468,27 +1468,6 @@ section {
 
 .sponsor-link:hover { opacity: 0.8; }
 
-/* Temporary department lockup: text stacked over the MSOE logo for the
-   Diercks School of Advanced Computing, until a combined logo graphic is
-   provided. Kept in proportion with peer Zettabyte logos (e.g. Xorbix). */
-.sponsor-link.sponsor-link-stacked {
-    flex-direction: column;
-    gap: var(--spacing-xs);
-}
-
-.sponsor-overlabel {
-    font-size: 0.95rem;
-    font-weight: 700;
-    line-height: 1.2;
-    text-align: center;
-    color: #be1e2d; /* approx. MSOE red — placeholder until the real graphic */
-    max-width: 300px;
-}
-
-.zettabyte .sponsor-card .sponsor-link-stacked img {
-    max-height: 110px;
-}
-
 /* Tier note (e.g. under Hosting Sponsors) */
 .tier-note {
     color: var(--color-text-light);
