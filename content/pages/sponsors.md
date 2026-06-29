@@ -44,6 +44,16 @@ Save_as: pages/sponsors.html
 <div class="tier-sponsors zettabyte">
 
 <div class="sponsor-card featured">
+<a class="sponsor-link sponsor-link-stacked" href="https://www.msoe.edu/academics/departments/diercks-school-advanced-computing/" target="_blank" rel="noopener" aria-label="MSOE Diercks School of Advanced Computing website">
+<span class="sponsor-overlabel">Diercks School of Advanced Computing</span>
+<img src="/images/sponsors/msoe.png" alt="MSOE Diercks School of Advanced Computing">
+</a>
+<div class="sponsor-badges">
+<span class="sponsor-badge keynote">Keynote Sponsor</span>
+</div>
+</div>
+
+<div class="sponsor-card featured">
 <a class="sponsor-link" href="https://xorbix.com" target="_blank" rel="noopener" aria-label="Xorbix Technologies website">
 <img src="/images/sponsors/xorbix.png" alt="Xorbix Technologies">
 </a>
