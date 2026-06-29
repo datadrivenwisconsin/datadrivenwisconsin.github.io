@@ -27,7 +27,7 @@ Save_as: pages/sponsors.html
 </a>
 </div>
 
-<div class="sponsor-card">
+<div class="sponsor-card sponsor-scale-75">
 <a class="sponsor-link" href="https://www.directsupply.com" target="_blank" rel="noopener" aria-label="Direct Supply website">
 <img src="/images/sponsors/direct-supply.png" alt="Direct Supply">
 </a>
@@ -47,6 +47,15 @@ Save_as: pages/sponsors.html
 <a class="sponsor-link sponsor-link-stacked" href="https://www.msoe.edu/academics/departments/diercks-school-advanced-computing/" target="_blank" rel="noopener" aria-label="MSOE Diercks School of Advanced Computing website">
 <span class="sponsor-overlabel">Diercks School of Advanced Computing</span>
 <img src="/images/sponsors/msoe.png" alt="MSOE Diercks School of Advanced Computing">
+</a>
+<div class="sponsor-badges">
+<span class="sponsor-badge keynote">Keynote Sponsor</span>
+</div>
+</div>
+
+<div class="sponsor-card featured sponsor-scale-75">
+<a class="sponsor-link" href="https://nvisia.com" target="_blank" rel="noopener" aria-label="NVISIA website">
+<img src="/images/sponsors/nvisia.png" alt="NVISIA">
 </a>
 <div class="sponsor-badges">
 <span class="sponsor-badge keynote">Keynote Sponsor</span>
