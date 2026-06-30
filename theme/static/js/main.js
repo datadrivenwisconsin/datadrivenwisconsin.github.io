@@ -100,53 +100,38 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Speaker Modal Functionality
     const speakerModal = document.getElementById('speaker-modal');
-
-    // Populate and open the shared modal from a speaker card element.
-    // The card may be on this page (speakers) or come from a fetched speakers
-    // document (schedule page) — both have the same .speaker-card-full structure.
-    // Read the image via getAttribute so the root-relative /images/... path
-    // resolves the same whether the card is live or parsed from fetched HTML.
-    function populateSpeakerModal(card) {
-        const titleText = card.querySelector('.speaker-title-link').textContent;
-        const nameText = card.querySelector('.speaker-name').textContent;
-        const roleText = card.querySelector('.speaker-role').textContent;
-        const bioHtml = card.querySelector('.speaker-bio').innerHTML;
-        const abstractHtml = card.querySelector('.speaker-abstract').innerHTML;
-        const imageUrl = card.querySelector('img').getAttribute('src');
-
-        document.getElementById('speaker-modal-title').textContent = titleText;
-        document.getElementById('speaker-modal-name').textContent = nameText;
-        document.getElementById('speaker-modal-role').textContent = roleText;
-        document.getElementById('speaker-modal-bio').innerHTML = bioHtml;
-        document.getElementById('speaker-modal-abstract').innerHTML = abstractHtml;
-        document.getElementById('speaker-modal-image').src = imageUrl;
-        document.getElementById('speaker-modal-image').alt = nameText;
-
-        // Mirror the card's LinkedIn button into the modal (opens in a new tab).
-        const cardLinkedin = card.querySelector('.speaker-linkedin');
-        const modalLinkedin = document.getElementById('speaker-modal-linkedin');
-        if (cardLinkedin) {
-            modalLinkedin.href = cardLinkedin.getAttribute('href');
-            modalLinkedin.setAttribute('aria-label', cardLinkedin.getAttribute('aria-label') || (nameText + ' on LinkedIn'));
-            modalLinkedin.style.display = '';
-        } else {
-            modalLinkedin.style.display = 'none';
-        }
-
-        speakerModal.setAttribute('aria-hidden', 'false');
-        speakerModal.style.display = 'flex';
-        document.body.style.overflow = 'hidden';
-
-        // Always start at the top of the content
-        speakerModal.querySelector('.speaker-modal-content').scrollTop = 0;
-    }
-
-    // Add click handlers to speaker titles (speakers page)
+    
+    // Add click handlers to speaker titles
     document.querySelectorAll('.speaker-title-link').forEach(titleLink => {
         titleLink.addEventListener('click', function() {
-            populateSpeakerModal(this.closest('.speaker-card-full'));
-        });
+            const card = this.closest('.speaker-card-full');
+            const speakerId = card.getAttribute('data-speaker-id');
+            
+            const titleText = this.textContent;
+            const nameText = card.querySelector('.speaker-name').textContent;
+            const roleText = card.querySelector('.speaker-role').textContent;
+            const bioHtml = card.querySelector('.speaker-bio').innerHTML;
+            const abstractHtml = card.querySelector('.speaker-abstract').innerHTML;
+            const imageUrl = card.querySelector('img').src;
+            
+            // Populate modal
+            document.getElementById('speaker-modal-title').textContent = titleText;
+            document.getElementById('speaker-modal-name').textContent = nameText;
+            document.getElementById('speaker-modal-role').textContent = roleText;
+            document.getElementById('speaker-modal-bio').innerHTML = bioHtml;
+            document.getElementById('speaker-modal-abstract').innerHTML = abstractHtml;
+            document.getElementById('speaker-modal-image').src = imageUrl;
+            document.getElementById('speaker-modal-image').alt = nameText;
+            
+            // Show modal
+            speakerModal.setAttribute('aria-hidden', 'false');
+            speakerModal.style.display = 'flex';
+            document.body.style.overflow = 'hidden';
 
+            // Always start at the top of the content
+            speakerModal.querySelector('.speaker-modal-content').scrollTop = 0;
+        });
+        
         // Allow keyboard trigger (Enter/Space)
         titleLink.addEventListener('keypress', function(e) {
             if (e.key === 'Enter' || e.key === ' ') {
@@ -155,63 +140,13 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
-
-    // Schedule page: open the speaker modal in place (over the schedule) rather
-    // than navigating, so closing it returns to the schedule with no Back press.
-    // The links keep their speakers.html#key href as a no-JS / fetch-fail fallback.
-    const scheduleSpeakerLinks = document.querySelectorAll('.track-info a[href*="speakers.html#"]');
-    if (scheduleSpeakerLinks.length) {
-        let speakersDocPromise = null;
-        const loadSpeakersDoc = function(url) {
-            if (!speakersDocPromise) {
-                speakersDocPromise = fetch(url)
-                    .then(function(resp) { return resp.ok ? resp.text() : Promise.reject(resp.status); })
-                    .then(function(html) { return new DOMParser().parseFromString(html, 'text/html'); });
-            }
-            return speakersDocPromise;
-        };
-        scheduleSpeakerLinks.forEach(function(link) {
-            link.addEventListener('click', function(e) {
-                const href = this.getAttribute('href');
-                const hashIndex = href.indexOf('#');
-                if (hashIndex === -1) return;
-                const key = href.slice(hashIndex + 1);
-                const pageUrl = href.slice(0, hashIndex);
-                e.preventDefault();
-                loadSpeakersDoc(pageUrl).then(function(doc) {
-                    const card = doc.querySelector('.speaker-card-full[data-speaker-id="' + key + '"]');
-                    if (card) {
-                        populateSpeakerModal(card);
-                    } else {
-                        window.location.href = href; // unknown key: fall back to navigation
-                    }
-                }).catch(function() {
-                    window.location.href = href; // fetch failed: fall back to navigation
-                });
-            });
-        });
-    }
     
-    // Deep-link: open a specific speaker's modal from the URL hash.
-    // e.g. speakers.html#vandenbush — key is the headshot filename stem (data-speaker-id).
-    const speakerHash = decodeURIComponent(window.location.hash.slice(1)).trim();
-    if (speakerHash) {
-        const targetCard = document.querySelector('.speaker-card-full[data-speaker-id="' + speakerHash + '"]');
-        if (targetCard) {
-            // Center the card behind the modal so closing it lands on that speaker.
-            targetCard.scrollIntoView({ block: 'center' });
-            targetCard.querySelector('.speaker-title-link').click();
-        }
-    }
-
     // Close modal functions
     function closeSpeakerModal() {
         speakerModal.setAttribute('aria-hidden', 'true');
         speakerModal.style.display = 'none';
         document.body.style.overflow = '';
     }
-    // Expose for the modal's inline onclick close handlers (X button, overlay).
-    window.closeSpeakerModal = closeSpeakerModal;
     
     // Close on Escape key
     document.addEventListener('keydown', function(e) {

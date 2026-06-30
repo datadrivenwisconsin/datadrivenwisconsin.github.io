@@ -1242,20 +1242,6 @@ section {
     margin: 0;
 }
 
-/* Session titles stand out from the logistics/keynote rows */
-.schedule-row.session .schedule-event h3 {
-    font-size: 1.3rem;
-    font-weight: 700;
-    color: var(--color-cta);
-    margin-top: 0.55rem;   /* doubled breathing room above the session label */
-    text-align: center;
-}
-
-/* Session duration drops to its own centered line under the label */
-.schedule-row.session .event-duration {
-    display: block;
-}
-
 .event-duration {
     font-weight: 400;
     color: var(--color-text-muted);
@@ -1289,8 +1275,7 @@ section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: var(--spacing-md);
-    margin-top: 0.8rem;    /* doubled gap between session label and track headers */
-    margin-bottom: 0.55rem; /* match the doubled space above the session label */
+    margin-top: 0.4rem;
 }
 
 .track-info {
@@ -1305,47 +1290,10 @@ section {
 .track-info strong {
     display: block;
     margin-bottom: 0.15rem;
-    text-align: center;
-    font-size: 1.17rem;   /* ~30% larger than the 0.9rem track-info base */
 }
 
 .track-info .location {
     margin: 0;
-    text-align: center;
-}
-
-.track-theme {
-    font-size: 1.17rem;   /* 50% larger than the original 0.78rem */
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
-    color: var(--color-cta);
-    text-align: center;
-    margin: 0.15rem 0 1rem;   /* doubled gap below track header before first talk */
-}
-
-.track-info a {
-    display: block;
-    font-weight: 600;
-    margin-top: 0.55rem;
-    line-height: 1.3;
-}
-
-/* Space between the two talks matches the gap above the first talk / below the theme */
-.track-info a:nth-of-type(2) {
-    margin-top: 1rem;
-}
-
-/* Non-linking placeholder slot (e.g. open cleanup time) */
-.track-info .track-note {
-    margin: 1rem 0 0;
-    font-style: italic;
-    color: var(--color-text-muted);
-}
-
-.track-info .speaker {
-    margin: 0.1rem 0 0;
-    color: var(--color-text-light);
 }
 
 .sponsor-note {
