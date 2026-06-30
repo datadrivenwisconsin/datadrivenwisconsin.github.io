@@ -14,8 +14,22 @@ Save_as: pages/speakers.html
 </div>
 <div class="past-keynote-info">
 <h3>Keynote Speaker</h3>
-<h4>Coming Soon</h4>
-<p class="speaker-role">We're lining up a keynote to kick off Data-Driven Wisconsin 2026. Stay tuned!</p>
+<h4>Unveiled in early July.</h4>
+<p class="speaker-role">Founder. Builder. Now at the epicenter of applied AI. He opens the day with how it's really made.</p>
+</div>
+</div>
+
+<div class="past-keynote-speaker keynote-tba">
+<div class="keynote-tba-figure">
+<div class="past-keynote-image keynote-tba-image">
+<img src="/images/logo/logo.png" alt="Keynote speaker to be announced">
+</div>
+<span class="keynote-tba-mark">?</span>
+</div>
+<div class="past-keynote-info">
+<h3>Keynote Speaker</h3>
+<h4>Unveiled in early July.</h4>
+<p class="speaker-role">Founder. Builder. Decades at real-time scale. He closes the day with why it matters.</p>
 </div>
 </div>
 
