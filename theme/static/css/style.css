@@ -1275,6 +1275,12 @@ section {
     margin: 0.15rem 0 0;
 }
 
+.schedule-event .keynote-speaker-link {
+    display: block;
+    font-weight: 600;
+    margin-top: 0.2rem;
+}
+
 .schedule-event .speaker {
     font-size: 0.9rem;
     margin-top: 0.2rem;
@@ -1972,6 +1978,22 @@ section {
     font-weight: 600;
     font-size: 1.1rem;
     margin-bottom: var(--spacing-xs);
+}
+
+/* Small label above a revealed keynote speaker's name */
+.past-keynote-info .keynote-eyebrow {
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-secondary);
+    margin-bottom: 0.25rem;
+}
+
+/* Revealed keynote speaker name reads as the card headline */
+.past-keynote-info .speaker-name {
+    font-size: 1.6rem;
+    font-weight: 800;
 }
 
 /* Upcoming keynote — "coming soon" placeholder on the Speakers page */

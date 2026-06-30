@@ -144,7 +144,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Add click handlers to speaker titles (speakers page)
     document.querySelectorAll('.speaker-title-link').forEach(titleLink => {
         titleLink.addEventListener('click', function() {
-            populateSpeakerModal(this.closest('.speaker-card-full'));
+            populateSpeakerModal(this.closest('[data-speaker-id]'));
         });
 
         // Allow keyboard trigger (Enter/Space)
@@ -159,7 +159,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Schedule page: open the speaker modal in place (over the schedule) rather
     // than navigating, so closing it returns to the schedule with no Back press.
     // The links keep their speakers.html#key href as a no-JS / fetch-fail fallback.
-    const scheduleSpeakerLinks = document.querySelectorAll('.track-info a[href*="speakers.html#"]');
+    const scheduleSpeakerLinks = document.querySelectorAll('.schedule-event a[href*="speakers.html#"]');
     if (scheduleSpeakerLinks.length) {
         let speakersDocPromise = null;
         const loadSpeakersDoc = function(url) {
@@ -179,7 +179,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 const pageUrl = href.slice(0, hashIndex);
                 e.preventDefault();
                 loadSpeakersDoc(pageUrl).then(function(doc) {
-                    const card = doc.querySelector('.speaker-card-full[data-speaker-id="' + key + '"]');
+                    const card = doc.querySelector('[data-speaker-id="' + key + '"]');
                     if (card) {
                         populateSpeakerModal(card);
                     } else {
@@ -196,7 +196,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // e.g. speakers.html#vandenbush — key is the headshot filename stem (data-speaker-id).
     const speakerHash = decodeURIComponent(window.location.hash.slice(1)).trim();
     if (speakerHash) {
-        const targetCard = document.querySelector('.speaker-card-full[data-speaker-id="' + speakerHash + '"]');
+        const targetCard = document.querySelector('[data-speaker-id="' + speakerHash + '"]');
         if (targetCard) {
             // Center the card behind the modal so closing it lands on that speaker.
             targetCard.scrollIntoView({ block: 'center' });
