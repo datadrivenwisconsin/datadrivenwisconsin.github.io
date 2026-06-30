@@ -42,8 +42,6 @@ Save_as: pages/schedule.html
   <div class="schedule-time">8:30 AM</div>
   <div class="schedule-event">
     <h3>Keynote <span class="event-duration">(1 hr)</span></h3>
-    <p class="event-subtitle">Founder. Builder. Now at the epicenter of applied AI. He opens the day with how it's really made.</p>
-    <p class="keynote-status">Unveiled in early July.</p>
     <p class="location">Diercks Hall - NVIDIA Auditorium</p>
   </div>
 </div>
@@ -51,15 +49,15 @@ Save_as: pages/schedule.html
 <div class="schedule-row logistics">
   <div class="schedule-time">9:30 AM</div>
   <div class="schedule-event">
-    <h3>Morning Break <span class="event-duration">(15 min)</span></h3>
+    <h3>Morning Break <span class="event-duration">(30 min)</span></h3>
     <p class="location">Diercks Hall - Atrium</p>
   </div>
 </div>
 
 <div class="schedule-row session">
-  <div class="schedule-time">9:45 AM</div>
+  <div class="schedule-time">10:00 AM</div>
   <div class="schedule-event">
-    <h3>Session 1 <span class="event-duration">(1 hr 30 min)</span></h3>
+    <h3>Session 1 <span class="event-duration">(1 hr 45 min)</span></h3>
     <div class="session-tracks">
       <div class="track-info">
         <strong>Track 1</strong>
@@ -84,7 +82,7 @@ Save_as: pages/schedule.html
 </div>
 
 <div class="schedule-row logistics">
-  <div class="schedule-time">11:15 AM</div>
+  <div class="schedule-time">11:45 AM</div>
   <div class="schedule-event">
     <h3>Lunch <span class="event-duration">(1 hr)</span></h3>
     <p class="location">Diercks Hall - Atrium</p>
@@ -92,9 +90,9 @@ Save_as: pages/schedule.html
 </div>
 
 <div class="schedule-row session">
-  <div class="schedule-time">12:15 PM</div>
+  <div class="schedule-time">12:45 PM</div>
   <div class="schedule-event">
-    <h3>Session 2 <span class="event-duration">(1 hr 30 min)</span></h3>
+    <h3>Session 2 <span class="event-duration">(1 hr 45 min)</span></h3>
     <div class="session-tracks">
       <div class="track-info">
         <strong>Track 1</strong>
@@ -119,7 +117,7 @@ Save_as: pages/schedule.html
 </div>
 
 <div class="schedule-row logistics">
-  <div class="schedule-time">1:45 PM</div>
+  <div class="schedule-time">2:30 PM</div>
   <div class="schedule-event">
     <h3>Afternoon Break <span class="event-duration">(30 min)</span></h3>
     <p class="event-subtitle">Award Scavenger Hunt prizes</p>
@@ -128,9 +126,9 @@ Save_as: pages/schedule.html
 </div>
 
 <div class="schedule-row session">
-  <div class="schedule-time">2:15 PM</div>
+  <div class="schedule-time">3:00 PM</div>
   <div class="schedule-event">
-    <h3>Session 3 <span class="event-duration">(1 hr 30 min)</span></h3>
+    <h3>Session 3 <span class="event-duration">(1 hr 45 min)</span></h3>
     <div class="session-tracks">
       <div class="track-info">
         <strong>Track 1</strong>
@@ -147,24 +145,14 @@ Save_as: pages/schedule.html
         <p class="track-theme">Using AI Assistants</p>
         <a href="/pages/speakers.html#lembke">Directing the Machine: What Happens When You Give AI Agents Structure Instead of Hope</a>
         <p class="speaker">James Lembke</p>
-        <p class="track-note">Additional talk coming soon!</p>
+        <p class="track-note">ITC cleanup &mdash; slot intentionally left open</p>
       </div>
     </div>
   </div>
 </div>
 
-<div class="schedule-row keynote">
-  <div class="schedule-time">3:45 PM</div>
-  <div class="schedule-event">
-    <h3>Keynote 2 <span class="event-duration">(1 hr)</span></h3>
-    <p class="event-subtitle">Founder. Builder. Decades at real-time scale. He closes the day with why it matters.</p>
-    <p class="keynote-status">Unveiled in early July.</p>
-    <p class="location">Diercks Hall - NVIDIA Auditorium</p>
-  </div>
-</div>
-
 <div class="schedule-row logistics">
-  <div class="schedule-time">5:00 PM</div>
+  <div class="schedule-time">4:45 PM</div>
   <div class="schedule-event">
     <h3>Appetizers, Dinner &amp; Networking <span class="event-duration">(until 8:00)</span></h3>
     <p class="location">Direct Supply ITC - Great Hall and Patio (weather permitting)</p>
