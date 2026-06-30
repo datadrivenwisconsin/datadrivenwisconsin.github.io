@@ -22,10 +22,25 @@ Save_as: pages/speakers.html
 <div class="speaker-section" id="session-1-track-1">
 <div class="speakers-grid-full">
 
+	<div class="speaker-card-full" data-speaker-id="connor">
+	<img src="/images/past-events/2026/connor.jpg" alt="Headshot">
+	<div class="speaker-info">
+	<h4 class="speaker-title-link" role="button" tabindex="0">Coming Soon</h4>
+	<p class="speaker-name">Michael Connor</p>
+	<p class="speaker-role">Direct Supply, Inc.</p>
+	<a class="speaker-linkedin" href="https://www.linkedin.com/in/michael-conner-477b9b132/" target="_blank" rel="noopener noreferrer" aria-label="Michael Connor on LinkedIn">
+	<svg class="speaker-linkedin-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true" focusable="false"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.124 2.062 2.062 0 0 1 0 4.124zM7.119 20.452H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
+	</a>
+	<!-- Hidden data for modal -->
+	<div class="speaker-bio" style="display:none;"><p>Coming Soon</p></div>
+	<div class="speaker-abstract" style="display:none;"><p>Coming Soon</p></div>
+	</div>
+	</div>
+
 	<div class="speaker-card-full" data-speaker-id="flitcroft">
 	<img src="/images/past-events/2026/flitcroft.jpg" alt="Headshot">
 	<div class="speaker-info">
-	<h4 class="speaker-title-link" role="button" tabindex="0">Hacky, Useful, Effective: How Our LLM Strategy Evolved</h4>
+	<h4 class="speaker-title-link" role="button" tabindex="1">Hacky, Useful, Effective: How Our LLM Strategy Evolved</h4>
 	<p class="speaker-name">Jack Flitcroft</p>
 	<p class="speaker-role">Juno</p>
 	<a class="speaker-linkedin" href="https://www.linkedin.com/in/jack-flitcroft-92b6a417b/" target="_blank" rel="noopener noreferrer" aria-label="Jack Flitcroft on LinkedIn">
@@ -49,7 +64,7 @@ Save_as: pages/speakers.html
 	<div class="speaker-card-full" data-speaker-id="haydin">
 	<img src="/images/past-events/2026/haydin.jpg" alt="Headshot">
 	<div class="speaker-info">
-	<h4 class="speaker-title-link" role="button" tabindex="1">AgentOps for Data Teams: Observability, Evals, and Control for Production AI</h4>
+	<h4 class="speaker-title-link" role="button" tabindex="2">AgentOps for Data Teams: Observability, Evals, and Control for Production AI</h4>
 	<p class="speaker-name">Brian Haydin</p>
 	<p class="speaker-role">Concurrency</p>
 	<a class="speaker-linkedin" href="https://www.linkedin.com/in/brianhaydin/" target="_blank" rel="noopener noreferrer" aria-label="Brian Haydin on LinkedIn">
@@ -70,7 +85,7 @@ Save_as: pages/speakers.html
 	<div class="speaker-card-full" data-speaker-id="lembke">
 	<img src="/images/past-events/2026/lembke.jpg" alt="Headshot">
 	<div class="speaker-info">
-	<h4 class="speaker-title-link" role="button" tabindex="2">Directing the Machine: What Happens When You Give AI Agents Structure Instead of Hope</h4>
+	<h4 class="speaker-title-link" role="button" tabindex="3">Directing the Machine: What Happens When You Give AI Agents Structure Instead of Hope</h4>
 	<p class="speaker-name">James Lembke</p>
 	<p class="speaker-role">Milwaukee School of Engineering</p>
 	<a class="speaker-linkedin" href="https://www.linkedin.com/in/james-lembke-a2042a13/" target="_blank" rel="noopener noreferrer" aria-label="James Lembke on LinkedIn">
@@ -93,7 +108,7 @@ Save_as: pages/speakers.html
 	<div class="speaker-card-full" data-speaker-id="mccune">
 	<img src="/images/past-events/2026/mccune.jpg" alt="Headshot">
 	<div class="speaker-info">
-	<h4 class="speaker-title-link" role="button" tabindex="3">Data Contracts in Practice: Shifting Reliability Left</h4>
+	<h4 class="speaker-title-link" role="button" tabindex="4">Data Contracts in Practice: Shifting Reliability Left</h4>
 	<p class="speaker-name">Sam McCune</p>
 	<p class="speaker-role">Xorbix</p>
 	<a class="speaker-linkedin" href="https://www.linkedin.com/in/s-mccune/" target="_blank" rel="noopener noreferrer" aria-label="Sam McCune on LinkedIn">
@@ -115,7 +130,7 @@ Save_as: pages/speakers.html
 	<div class="speaker-card-full" data-speaker-id="mcqueen">
 	<img src="/images/past-events/2026/mcqueen.jpg" alt="Headshot">
 	<div class="speaker-info">
-	<h4 class="speaker-title-link" role="button" tabindex="4">Designing Scalable Intelligent Document Processing Platforms</h4>
+	<h4 class="speaker-title-link" role="button" tabindex="5">Designing Scalable Intelligent Document Processing Platforms</h4>
 	<p class="speaker-name">Andrew McQueen</p>
 	<p class="speaker-role">Xorbix</p>
 	<a class="speaker-linkedin" href="https://www.linkedin.com/in/andrew-t-mcqueen/" target="_blank" rel="noopener noreferrer" aria-label="Andrew McQueen on LinkedIn">
@@ -136,7 +151,7 @@ Save_as: pages/speakers.html
 	<div class="speaker-card-full" data-speaker-id="mokha">
 	<img src="/images/past-events/2026/mokha.png" alt="Headshot">
 	<div class="speaker-info">
-	<h4 class="speaker-title-link" role="button" tabindex="5">From Raw Signals to Real-Time Insights: Building an End-to-End IoT Pipeline with Databricks Zerobus</h4>
+	<h4 class="speaker-title-link" role="button" tabindex="6">From Raw Signals to Real-Time Insights: Building an End-to-End IoT Pipeline with Databricks Zerobus</h4>
 	<p class="speaker-name">Kirat Mokha</p>
 	<p class="speaker-role">Milwaukee Tool</p>
 	<a class="speaker-linkedin" href="https://www.linkedin.com/in/kiratmokha/" target="_blank" rel="noopener noreferrer" aria-label="Kirat Mokha on LinkedIn">
@@ -155,7 +170,7 @@ Save_as: pages/speakers.html
 	<div class="speaker-card-full" data-speaker-id="peters">
 	<img src="/images/past-events/2026/peters.jpg" alt="Headshot">
 	<div class="speaker-info">
-	<h4 class="speaker-title-link" role="button" tabindex="6">Vision Transformers: An Attractive Alternative to CNNs</h4>
+	<h4 class="speaker-title-link" role="button" tabindex="7">Vision Transformers: An Attractive Alternative to CNNs</h4>
 	<p class="speaker-name">John G. Peters</p>
 	<p class="speaker-role">University of Wisconsin-Madison</p>
 	<a class="speaker-linkedin" href="https://www.linkedin.com/in/john-geraldo-peters/" target="_blank" rel="noopener noreferrer" aria-label="John G. Peters on LinkedIn">
@@ -173,10 +188,29 @@ Save_as: pages/speakers.html
 	</div>
 	</div>
 
+	<div class="speaker-card-full" data-speaker-id="vandenbush">
+	<img src="/images/past-events/2026/vandenbush.jpg" alt="Headshot">
+	<div class="speaker-info">
+	<h4 class="speaker-title-link" role="button" tabindex="8">From Sensors to Decisions: Architecting Real-Time IoT Data Pipelines</h4>
+	<p class="speaker-name">Aiden Vandenbush</p>
+	<p class="speaker-role">Xorbix</p>
+	<a class="speaker-linkedin" href="https://www.linkedin.com/in/aiden-vandenbush/" target="_blank" rel="noopener noreferrer" aria-label="Aiden Vandenbush on LinkedIn">
+	<svg class="speaker-linkedin-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true" focusable="false"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.124 2.062 2.062 0 0 1 0 4.124zM7.119 20.452H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
+	</a>
+	<!-- Hidden data for modal -->
+	<div class="speaker-bio" style="display:none;">
+		<p>Aiden is a software and data engineer at Xorbix Technologies, focused on building scalable data and AI applications. His work spans data engineering, real-time pipelines, and user-facing applications, turning complex data systems into practical tools for businesses. He holds a master's degree in computer science from Northwestern University and is passionate about building data products that deliver real business value.</p>
+	</div>
+	<div class="speaker-abstract" style="display:none;">
+		<p>Modern IoT systems generate massive volumes of continuous, high-velocity data from sensors, devices, and edge systems. Yet many architectures still rely on outdated patterns like batch processing, heavy ETL pipelines, or message queues that introduce latency, duplication, and operational complexity. This talk explores a new approach to IoT data architecture centered around event-driven design, zero-copy data movement, and unified streaming systems. Rather than focusing on specific tools, we'll break down the underlying principles that enable real-time data pipelines to scale efficiently, from ingestion at the edge to analytics and real-time applications. Attendees will leave with a clear understanding of how to design faster, simpler, and more scalable IoT data systems using modern architectural patterns.</p>
+	</div>
+	</div>
+	</div>
+
 	<div class="speaker-card-full" data-speaker-id="vetter">
 	<img src="/images/past-events/2026/vetter.jpg" alt="Headshot">
 	<div class="speaker-info">
-	<h4 class="speaker-title-link" role="button" tabindex="7">6 Years Later: Our AI Is Still Kicking – And Here's the Messy Reality</h4>
+	<h4 class="speaker-title-link" role="button" tabindex="9">6 Years Later: Our AI Is Still Kicking – And Here's the Messy Reality</h4>
 	<p class="speaker-name">Cameron Vetter</p>
 	<p class="speaker-role">New Resources Consulting</p>
 	<a class="speaker-linkedin" href="https://www.linkedin.com/in/cameronvetter/" target="_blank" rel="noopener noreferrer" aria-label="Cameron Vetter on LinkedIn">
@@ -207,7 +241,7 @@ Save_as: pages/speakers.html
 	<div class="speaker-card-full" data-speaker-id="windau">
 	<img src="/images/past-events/2026/windau.jpg" alt="Headshot">
 	<div class="speaker-info">
-	<h4 class="speaker-title-link" role="button" tabindex="8">Beyond the Batch: Sub-Second Analytics on Streaming Data with Apache Druid</h4>
+	<h4 class="speaker-title-link" role="button" tabindex="10">Beyond the Batch: Sub-Second Analytics on Streaming Data with Apache Druid</h4>
 	<p class="speaker-name">Katie Windau</p>
 	<p class="speaker-role">Netflix</p>
 	<a class="speaker-linkedin" href="https://www.linkedin.com/in/katiewindau/" target="_blank" rel="noopener noreferrer" aria-label="Katie Windau on LinkedIn">
