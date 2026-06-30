@@ -157,8 +157,8 @@ Save_as: pages/schedule.html
   <div class="schedule-time">3:45 PM</div>
   <div class="schedule-event">
     <h3>Keynote 2 <span class="event-duration">(1 hr)</span></h3>
-    <a class="keynote-speaker-link" href="/pages/speakers.html#mukerji">Raja Mukerji</a>
     <p class="event-subtitle">Founder. Builder. Decades at real-time scale. He closes the day with why it matters.</p>
+    <p class="keynote-status">Unveiled in early July.</p>
     <p class="location">Diercks Hall - NVIDIA Auditorium</p>
   </div>
 </div>
