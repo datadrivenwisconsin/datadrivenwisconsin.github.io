@@ -274,7 +274,6 @@ Save_as: pages/speakers.html
 </div>
 </div>
 
-<!--
 <div class="schedule-coming-soon">
 <div class="coming-soon-icon">
 <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
@@ -288,5 +287,4 @@ Save_as: pages/speakers.html
 <p class="coming-soon-message">Interested in being a speaker?</p>
 <a href="https://docs.google.com/forms/d/e/1FAIpQLSeC_i7pYNXydy4xzwpQejUJ4gDke9nzWRAA21R0urNB0XTVeg/viewform" class="btn btn-primary">Call for Talks</a>
 </div>
--->
 </section>
