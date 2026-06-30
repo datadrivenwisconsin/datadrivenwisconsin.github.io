@@ -21,13 +21,13 @@ hide_title: False
         <h3>General Admission</h3>
         <p class="reg-price">$119</p>
         <p class="reg-price-desc">Includes all sessions and meals</p>
-        <p class="reg-early">Early rate: <strong>$99</strong> through July 12</p>
+        <p class="reg-early">Early rates: <strong>$99</strong> through June 30 &middot; <strong>$109</strong> through July 13</p>
     </div>
     <div class="reg-price-card student">
         <h3>Student Admission</h3>
         <p class="reg-price">$59</p>
         <p class="reg-price-desc">50 seats available</p>
-        <p class="reg-early">Early rate: <strong>$39</strong> through July 12</p>
+        <p class="reg-early">Early rates: <strong>$39</strong> through June 30 &middot; <strong>$49</strong> through July 13</p>
     </div>
 </section>
 
