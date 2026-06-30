@@ -1373,7 +1373,7 @@ section {
    ======================================== */
 
 .sponsors-page {
-    max-width: 900px;
+    max-width: 1320px;
     margin: 0 auto;
     text-align: center;
 }
@@ -1381,7 +1381,8 @@ section {
 .sponsors-intro {
     font-size: 1.1rem;
     color: var(--color-text-light);
-    margin-bottom: var(--spacing-2xl);
+    max-width: 720px;
+    margin: 0 auto var(--spacing-2xl);
 }
 
 .sponsor-tier {
@@ -1487,6 +1488,24 @@ section {
 
 .zettabyte .sponsor-card .sponsor-link-stacked img {
     max-height: 110px;
+}
+
+/* Scale an oversized wordmark (e.g. NVISIA) ~25% down to match peer logos. */
+.sponsor-card.sponsor-scale-75 img {
+    max-height: 120px;
+    max-width: 285px;
+}
+
+/* Hosting tier reads a notch tighter than Zettabyte: trim the box around
+   each logo (Direct Supply also scaled via .sponsor-scale-75). MSOE is
+   square, so it keeps its size — only the surrounding space tightens. */
+.tier-sponsors.hosting {
+    gap: var(--spacing-md);
+}
+
+.hosting .sponsor-card {
+    padding: var(--spacing-md);
+    min-width: 0;
 }
 
 /* Tier note (e.g. under Hosting Sponsors) */
