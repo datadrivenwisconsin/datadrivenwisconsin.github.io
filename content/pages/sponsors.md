@@ -22,13 +22,13 @@ Save_as: pages/sponsors.html
 <div class="tier-sponsors hosting">
 
 <div class="sponsor-card">
-<a class="sponsor-link" href="https://www.msoe.edu" target="_blank" rel="noopener" aria-label="Milwaukee School of Engineering website">
+<a class="sponsor-website-link" href="https://www.msoe.edu" target="_blank" rel="noopener" aria-label="Milwaukee School of Engineering website">
 <img src="/images/sponsors/msoe.png" alt="Milwaukee School of Engineering">
 </a>
 </div>
 
 <div class="sponsor-card sponsor-scale-75">
-<a class="sponsor-link" href="https://www.directsupply.com" target="_blank" rel="noopener" aria-label="Direct Supply website">
+<a class="sponsor-website-link" href="https://www.directsupply.com" target="_blank" rel="noopener" aria-label="Direct Supply website">
 <img src="/images/sponsors/direct-supply.png" alt="Direct Supply">
 </a>
 <div class="sponsor-badges">
@@ -44,7 +44,7 @@ Save_as: pages/sponsors.html
 <div class="tier-sponsors zettabyte">
 
 <div class="sponsor-card featured">
-<a class="sponsor-link sponsor-link-stacked" href="https://www.msoe.edu/academics/departments/diercks-school-advanced-computing/" target="_blank" rel="noopener" aria-label="MSOE Diercks School of Advanced Computing website">
+<a class="sponsor-website-link sponsor-website-link-stacked" href="https://www.msoe.edu/academics/departments/diercks-school-advanced-computing/" target="_blank" rel="noopener" aria-label="MSOE Diercks School of Advanced Computing website">
 <span class="sponsor-overlabel">Diercks School of Advanced Computing</span>
 <img src="/images/sponsors/msoe.png" alt="MSOE Diercks School of Advanced Computing">
 </a>
@@ -54,7 +54,7 @@ Save_as: pages/sponsors.html
 </div>
 
 <div class="sponsor-card featured sponsor-scale-75">
-<a class="sponsor-link" href="https://nvisia.com" target="_blank" rel="noopener" aria-label="NVISIA website">
+<a class="sponsor-website-link" href="https://nvisia.com" target="_blank" rel="noopener" aria-label="NVISIA website">
 <img src="/images/sponsors/nvisia.png" alt="NVISIA">
 </a>
 <div class="sponsor-badges">
@@ -63,7 +63,7 @@ Save_as: pages/sponsors.html
 </div>
 
 <div class="sponsor-card featured">
-<a class="sponsor-link" href="https://xorbix.com" target="_blank" rel="noopener" aria-label="Xorbix Technologies website">
+<a class="sponsor-website-link" href="https://xorbix.com" target="_blank" rel="noopener" aria-label="Xorbix Technologies website">
 <img src="/images/sponsors/xorbix.png" alt="Xorbix Technologies">
 </a>
 <div class="sponsor-badges">
