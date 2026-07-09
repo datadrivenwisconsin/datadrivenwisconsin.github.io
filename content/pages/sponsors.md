@@ -77,8 +77,13 @@ Save_as: pages/sponsors.html
 <div class="sponsor-tier">
 <h2 class="tier-title">Exabyte Sponsors</h2>
 <div class="tier-sponsors exabyte">
-<!-- No confirmed Exabyte sponsors yet — placeholder slots. Replace with sponsor-card blocks as they confirm. -->
-<div class="sponsor-card placeholder"><span>Your logo here</span></div>
+
+<div class="sponsor-card">
+<a class="sponsor-website-link" href="https://www.databricks.com" target="_blank" rel="noopener" aria-label="Databricks website">
+<img src="/images/sponsors/databricks.png" alt="Databricks">
+</a>
+</div>
+
 <div class="sponsor-card placeholder"><span>Your logo here</span></div>
 <div class="sponsor-card placeholder"><span>Your logo here</span></div>
 </div>
