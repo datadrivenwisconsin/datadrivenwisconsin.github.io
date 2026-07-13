@@ -11,7 +11,7 @@ hide_title: False
 
 <p class="intro-announce">Registration is now open.</p>
 
-<p class="intro-text">Join us August 12 at MSOE for a day of data-driven insight, practical sessions, and connection with Wisconsin's analytics community. Our keynote speakers will be unveiled in early July, and the session schedule is nearly full &mdash; just one speaking slot remains. Space is limited to 250 attendees &mdash; register early to secure your seat.</p>
+<p class="intro-text">Join us August 12 at MSOE for a day of data-driven insight, practical sessions, and connection with Wisconsin's analytics community. Our keynote speakers will be unveiled in later July, and the session schedule is nearly full &mdash; just one speaking slot remains. Space is limited to 250 attendees &mdash; register early to secure your seat.</p>
 
 </center>
 
@@ -21,13 +21,11 @@ hide_title: False
         <h3>General Admission</h3>
         <p class="reg-price">$119</p>
         <p class="reg-price-desc">Includes all sessions and meals</p>
-        <p class="reg-early">Early rate: <strong>$99</strong> through July 12</p>
     </div>
     <div class="reg-price-card student">
         <h3>Student Admission</h3>
         <p class="reg-price">$59</p>
         <p class="reg-price-desc">50 seats available</p>
-        <p class="reg-early">Early rate: <strong>$39</strong> through July 12</p>
     </div>
 </section>
 

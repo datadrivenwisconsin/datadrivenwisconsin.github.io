@@ -14,7 +14,7 @@ Save_as: pages/speakers.html
 </div>
 <div class="past-keynote-info">
 <h3>Opening Keynote Speaker</h3>
-<h4>Unveiled in early July.</h4>
+<h4>Unveiled in later July.</h4>
 <p class="speaker-role">Founder. Builder. Now at the epicenter of applied AI. He opens the day with how it's really made.</p>
 </div>
 </div>
