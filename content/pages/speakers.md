@@ -42,15 +42,18 @@ Save_as: pages/speakers.html
 	<div class="speaker-card-full" data-speaker-id="connor">
 	<img src="/images/past-events/2026/connor.jpg" alt="Headshot">
 	<div class="speaker-info">
-	<h4 class="speaker-title-link" role="button" tabindex="0">Coming Soon</h4>
+	<h4 class="speaker-title-link" role="button" tabindex="0">Growing a Production Customer-Facing AI System</h4>
 	<p class="speaker-name">Michael Connor</p>
 	<p class="speaker-role">Direct Supply, Inc.</p>
 	<a class="speaker-linkedin" href="https://www.linkedin.com/in/michael-conner-477b9b132/" target="_blank" rel="noopener noreferrer" aria-label="Michael Connor on LinkedIn">
 	<svg class="speaker-linkedin-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true" focusable="false"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.124 2.062 2.062 0 0 1 0 4.124zM7.119 20.452H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
 	</a>
 	<!-- Hidden data for modal -->
-	<div class="speaker-bio" style="display:none;"><p>Coming Soon</p></div>
-	<div class="speaker-abstract" style="display:none;"><p>Coming Soon</p></div>
+	<div class="speaker-bio" style="display:none;"><p>Michael Conner is an AI Team Lead at Direct Supply, where he leads the development of AI-powered products and helps establish engineering standards for adopting emerging AI technologies across the organization. A graduate of the Milwaukee School of Engineering with a degree in Computer Science, Michael began his career as a Data Scientist before transitioning into AI engineering and technical leadership. His work focuses on taking AI systems from promising prototypes to reliable production services that operate at scale.</p></div>
+	<div class="speaker-abstract" style="display:none;"><p>Most AI projects start as quick experiments. Some unexpectedly become critical infrastructure.</p>
+	<p>At Direct Supply, one of the AI products I help lead is DSSI Menu.ai, a menu planning platform for senior living communities. One of its core capabilities is translating recipe ingredients into the specific products facilities can actually purchase - a deceptively difficult problem involving millions of possible product relationships, constantly changing catalogs, and AI-assisted matching. What began as a Jupyter notebook evolved into a pilot application and eventually a production system serving thousands of users.</p>
+	<p>Rather than focusing on the algorithms themselves, this talk explores the engineering challenges that emerged as the system grew. I'll share lessons learned from scaling reverse nearest-neighbor search across millions of items, monitoring qualitative LLM behavior using LLM-as-a-judge techniques, deploying updates with effectively zero downtime, and balancing rapid iteration with the reliability expected from a system that helps plan meals for senior living residents. These aren't the challenges you encounter while building a proof of concept - they're the ones that appear once people begin depending on your AI every day.</p>
+	</div>
 	</div>
 	</div>
 
