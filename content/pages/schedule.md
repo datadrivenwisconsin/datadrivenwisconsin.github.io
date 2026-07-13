@@ -138,7 +138,7 @@ Save_as: pages/schedule.html
         <p class="track-theme">AI in Production, Part II</p>
         <a href="/pages/speakers.html#haydin">AgentOps for Data Teams: Observability, Evals, and Control for Production AI</a>
         <p class="speaker">Brian Haydin</p>
-        <a href="/pages/speakers.html#connor">Coming Soon</a>
+        <a href="/pages/speakers.html#connor">Growing a Production Customer-Facing AI System</a>
         <p class="speaker">Michael Connor</p>
       </div>
       <div class="track-info">
