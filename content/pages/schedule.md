@@ -43,7 +43,7 @@ Save_as: pages/schedule.html
   <div class="schedule-event">
     <h3>Keynote <span class="event-duration">(1 hr)</span></h3>
     <p class="event-subtitle">Founder. Builder. Now at the epicenter of applied AI. He opens the day with how it's really made.</p>
-    <p class="keynote-status">Unveiled in early July.</p>
+    <p class="keynote-status">Unveiled in later July.</p>
     <p class="location">Diercks Hall - NVIDIA Auditorium</p>
   </div>
 </div>
