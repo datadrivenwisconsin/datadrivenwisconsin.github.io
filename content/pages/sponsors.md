@@ -92,8 +92,13 @@ Save_as: pages/sponsors.html
 <div class="sponsor-tier">
 <h2 class="tier-title">Petabyte Sponsors</h2>
 <div class="tier-sponsors petabyte">
-<!-- No confirmed Petabyte sponsors yet — placeholder slots. Replace with sponsor-card blocks as they confirm. -->
-<div class="sponsor-card placeholder"><span>Your logo here</span></div>
+
+<div class="sponsor-card">
+<a class="sponsor-website-link" href="https://www.syslogicinc.com" target="_blank" rel="noopener" aria-label="SysLogic website">
+<img src="/images/sponsors/syslogic.png" alt="SysLogic">
+</a>
+</div>
+
 <div class="sponsor-card placeholder"><span>Your logo here</span></div>
 <div class="sponsor-card placeholder"><span>Your logo here</span></div>
 <div class="sponsor-card placeholder"><span>Your logo here</span></div>
