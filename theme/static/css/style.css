@@ -1268,6 +1268,14 @@ section {
     margin-top: 0.2rem;
 }
 
+/* Revealed keynote talk title reads as a title, not a teaser subtitle */
+.schedule-event .event-subtitle.keynote-talk-title {
+    font-style: normal;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--color-cta);
+}
+
 .schedule-event .keynote-status {
     font-size: 0.85rem;
     font-weight: 600;
@@ -2018,6 +2026,13 @@ section {
     font-weight: 600;
     font-size: 1.1rem;
     margin-bottom: var(--spacing-xs);
+}
+
+/* Revealed keynote talk title — larger than a regular speaker title so it
+   reads as the card's headline talk */
+.past-keynote-info h4.speaker-title-link {
+    font-size: 1.5rem;
+    line-height: 1.2;
 }
 
 /* Small label above a revealed keynote speaker's name */
