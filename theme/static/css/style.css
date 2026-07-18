@@ -722,6 +722,14 @@ section {
     margin: 0 auto;
 }
 
+/* Set-off registration call-to-action — same blue as the "Registration is
+   now open." announcement, with extra space above it */
+.intro-text-cta {
+    margin-top: var(--spacing-lg);
+    color: var(--color-primary);
+    font-weight: 700;
+}
+
 .reg-pricing {
     display: flex;
     justify-content: center;
@@ -1457,8 +1465,8 @@ section {
 }
 
 .exabyte .sponsor-card img {
-    max-height: 110px;
-    max-width: 250px;
+    max-height: 154px;
+    max-width: 350px;
 }
 
 .petabyte .sponsor-card img {

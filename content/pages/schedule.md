@@ -42,8 +42,8 @@ Save_as: pages/schedule.html
   <div class="schedule-time">8:30 AM</div>
   <div class="schedule-event">
     <h3>Keynote <span class="event-duration">(1 hr)</span></h3>
-    <p class="event-subtitle">Founder. Builder. Now at the epicenter of applied AI. He opens the day with how it's really made.</p>
-    <p class="keynote-status">Unveiled in later July.</p>
+    <a class="keynote-speaker-link" href="/pages/speakers.html#erickson">Aaron Erickson</a>
+    <p class="event-subtitle keynote-talk-title">Software Engineering in the Post AI Era</p>
     <p class="location">Diercks Hall - NVIDIA Auditorium</p>
   </div>
 </div>
