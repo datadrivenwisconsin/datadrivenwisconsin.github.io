@@ -84,8 +84,6 @@ Save_as: pages/sponsors.html
 </a>
 </div>
 
-<div class="sponsor-card placeholder"><span>Your logo here</span></div>
-<div class="sponsor-card placeholder"><span>Your logo here</span></div>
 </div>
 </div>
 
@@ -99,9 +97,12 @@ Save_as: pages/sponsors.html
 </a>
 </div>
 
-<div class="sponsor-card placeholder"><span>Your logo here</span></div>
-<div class="sponsor-card placeholder"><span>Your logo here</span></div>
-<div class="sponsor-card placeholder"><span>Your logo here</span></div>
+<div class="sponsor-card">
+<a class="sponsor-website-link" href="https://qubika.com" target="_blank" rel="noopener" aria-label="Qubika website">
+<img src="/images/sponsors/qubika.png" alt="Qubika">
+</a>
+</div>
+
 </div>
 </div>
 

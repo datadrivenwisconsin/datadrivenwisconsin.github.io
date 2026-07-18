@@ -11,7 +11,9 @@ hide_title: False
 
 <p class="intro-announce">Registration is now open.</p>
 
-<p class="intro-text">Join us August 12 at MSOE for a day of data-driven insight, practical sessions, and connection with Wisconsin's analytics community. Our keynote speakers will be unveiled in later July, and the session schedule is nearly full &mdash; just one speaking slot remains. Space is limited to 250 attendees &mdash; register early to secure your seat.</p>
+<p class="intro-text">Join us August 12 at MSOE for a day of data-driven insight, practical sessions, and connection with Wisconsin's analytics community. We're excited to welcome <strong>Aaron Erickson</strong>, NemoClaw Engineering Lead at NVIDIA and <strong>Raja Mukerji</strong>, CoFounder &amp; Chief Scientist at ExtraHop Networks as our opening and closing Keynote Speakers!</p>
+
+<p class="intro-text intro-text-cta">Registration is filling - register now to secure your seat.</p>
 
 </center>
 
@@ -68,4 +70,107 @@ hide_title: False
             </div>
         </div>
     </div>
+</section>
+
+<!-- ============================================================
+     SPONSORS (redundant copy of content/pages/sponsors.md)
+     Mirrored here so home-page visitors see our sponsors too.
+     When a sponsor is added/changed, update BOTH this block and
+     content/pages/sponsors.md. The "Interested in Sponsoring?" CTA
+     is intentionally omitted here (a "Want to Sponsor" link already
+     appears earlier on the home page).
+     ============================================================ -->
+<section class="sponsors-page">
+<h2 class="section-title" style="text-align: center;">Our Sponsors</h2>
+<p class="sponsors-intro">Thank you to the organizations making Data-Driven Wisconsin possible! Their support grows the data and applied-AI ecosystem across Wisconsin and the upper Midwest.</p>
+
+<div class="sponsor-tier">
+<h2 class="tier-title">Hosting Sponsors</h2>
+<p class="tier-note">Our venue and infrastructure partners who make the event possible.</p>
+<div class="tier-sponsors hosting">
+
+<div class="sponsor-card">
+<a class="sponsor-website-link" href="https://www.msoe.edu" target="_blank" rel="noopener" aria-label="Milwaukee School of Engineering website">
+<img src="/images/sponsors/msoe.png" alt="Milwaukee School of Engineering">
+</a>
+</div>
+
+<div class="sponsor-card sponsor-scale-75">
+<a class="sponsor-website-link" href="https://www.directsupply.com" target="_blank" rel="noopener" aria-label="Direct Supply website">
+<img src="/images/sponsors/direct-supply.png" alt="Direct Supply">
+</a>
+<div class="sponsor-badges">
+<span class="sponsor-badge student">Student Attendee Support</span>
+</div>
+</div>
+
+</div>
+</div>
+
+<div class="sponsor-tier">
+<h2 class="tier-title">Zettabyte Sponsors</h2>
+<div class="tier-sponsors zettabyte">
+
+<div class="sponsor-card featured">
+<a class="sponsor-website-link sponsor-website-link-stacked" href="https://www.msoe.edu/academics/departments/diercks-school-advanced-computing/" target="_blank" rel="noopener" aria-label="MSOE Diercks School of Advanced Computing website">
+<span class="sponsor-overlabel">Diercks School of Advanced Computing</span>
+<img src="/images/sponsors/msoe.png" alt="MSOE Diercks School of Advanced Computing">
+</a>
+<div class="sponsor-badges">
+<span class="sponsor-badge keynote">Keynote Sponsor</span>
+</div>
+</div>
+
+<div class="sponsor-card featured sponsor-scale-75">
+<a class="sponsor-website-link" href="https://nvisia.com" target="_blank" rel="noopener" aria-label="NVISIA website">
+<img src="/images/sponsors/nvisia.png" alt="NVISIA">
+</a>
+<div class="sponsor-badges">
+<span class="sponsor-badge keynote">Keynote Sponsor</span>
+</div>
+</div>
+
+<div class="sponsor-card featured">
+<a class="sponsor-website-link" href="https://xorbix.com" target="_blank" rel="noopener" aria-label="Xorbix Technologies website">
+<img src="/images/sponsors/xorbix.png" alt="Xorbix Technologies">
+</a>
+<div class="sponsor-badges">
+<span class="sponsor-badge dinner">Networking Dinner Host</span>
+</div>
+</div>
+
+</div>
+</div>
+
+<div class="sponsor-tier">
+<h2 class="tier-title">Exabyte Sponsors</h2>
+<div class="tier-sponsors exabyte">
+
+<div class="sponsor-card">
+<a class="sponsor-website-link" href="https://www.databricks.com" target="_blank" rel="noopener" aria-label="Databricks website">
+<img src="/images/sponsors/databricks.png" alt="Databricks">
+</a>
+</div>
+
+</div>
+</div>
+
+<div class="sponsor-tier">
+<h2 class="tier-title">Petabyte Sponsors</h2>
+<div class="tier-sponsors petabyte">
+
+<div class="sponsor-card">
+<a class="sponsor-website-link" href="https://www.syslogicinc.com" target="_blank" rel="noopener" aria-label="SysLogic website">
+<img src="/images/sponsors/syslogic.png" alt="SysLogic">
+</a>
+</div>
+
+<div class="sponsor-card">
+<a class="sponsor-website-link" href="https://qubika.com" target="_blank" rel="noopener" aria-label="Qubika website">
+<img src="/images/sponsors/qubika.png" alt="Qubika">
+</a>
+</div>
+
+</div>
+</div>
 </section>
