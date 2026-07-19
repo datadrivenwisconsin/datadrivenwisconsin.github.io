@@ -136,18 +136,19 @@ Save_as: pages/schedule.html
         <strong>Track 1</strong>
         <p class="location">Diercks Hall - NVIDIA Auditorium</p>
         <p class="track-theme">AI in Production, Part II</p>
-        <a href="/pages/speakers.html#haydin">AgentOps for Data Teams: Observability, Evals, and Control for Production AI</a>
-        <p class="speaker">Brian Haydin</p>
+        <a href="/pages/speakers.html#diaz">AI Agents in Production: What We've Learned Building Real Systems</a>
+        <p class="speaker">Sebastian Diaz</p>
         <a href="/pages/speakers.html#connor">Growing a Production Customer-Facing AI System</a>
         <p class="speaker">Michael Connor</p>
       </div>
       <div class="track-info">
         <strong>Track 2</strong>
         <p class="location">Direct Supply ITC - Great Hall</p>
-        <p class="track-theme">Using AI Assistants</p>
+        <p class="track-theme">AI Assistants and AgentOps</p>
         <a href="/pages/speakers.html#lembke">Directing the Machine: What Happens When You Give AI Agents Structure Instead of Hope</a>
         <p class="speaker">James Lembke</p>
-        <p class="track-note">Additional talk coming soon!</p>
+        <a href="/pages/speakers.html#haydin">AgentOps for Data Teams: Observability, Evals, and Control for Production AI</a>
+        <p class="speaker">Brian Haydin</p>
       </div>
     </div>
   </div>

@@ -272,13 +272,32 @@ Save_as: pages/speakers.html
 	<a class="speaker-linkedin" href="https://www.linkedin.com/in/katiewindau/" target="_blank" rel="noopener noreferrer" aria-label="Katie Windau on LinkedIn">
 	<svg class="speaker-linkedin-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true" focusable="false"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.124 2.062 2.062 0 0 1 0 4.124zM7.119 20.452H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
 	</a>
-	<!-- Hidden data for modal -->
-    <div class="speaker-bio" style="display:none;">
-		<p>Katie Windau is an Analytics Engineer at Netflix, and has 13 years of experience in tech, in both data engineering and data science roles.  Her expertise is in building pipelines that enable end users to reach actionable, accurate, & reliable insights from large amounts of data.</p>
-    </div>
-    <div class="speaker-abstract" style="display:none;">
-		<p>This session provides a technical deep-dive into Apache Druid, specifically tailored for data engineers who build data pipelines and data scientists who need immediate insights from them. We will deconstruct Druid’s unique hybrid architecture, which combines the best elements of column-oriented databases, search engines, and time-series databases.</p>
-    </div>
+		<!-- Hidden data for modal -->
+	    <div class="speaker-bio" style="display:none;">
+			<p>Katie Windau is an Analytics Engineer at Netflix, and has 13 years of experience in tech, in both data engineering and data science roles.  Her expertise is in building pipelines that enable end users to reach actionable, accurate, & reliable insights from large amounts of data.</p>
+	    </div>
+	    <div class="speaker-abstract" style="display:none;">
+			<p>This session provides a technical deep-dive into Apache Druid, specifically tailored for data engineers who build data pipelines and data scientists who need immediate insights from them. We will deconstruct Druid’s unique hybrid architecture, which combines the best elements of column-oriented databases, search engines, and time-series databases.</p>
+	    </div>
+	</div>
+	</div>
+
+	<div class="speaker-card-full" data-speaker-id="diaz">
+	<img src="/images/past-events/2026/diaz.jpg" alt="Headshot">
+	<div class="speaker-info">
+	<h4 class="speaker-title-link" role="button" tabindex="11">AI Agents in Production: What We've Learned Building Real Systems</h4>
+	<p class="speaker-name">Sebastian Diaz</p>
+	<p class="speaker-role">Qubika</p>
+	<a class="speaker-linkedin" href="https://www.linkedin.com/in/sebastian-diaz-536251137/" target="_blank" rel="noopener noreferrer" aria-label="Sebastian Diaz on LinkedIn">
+	<svg class="speaker-linkedin-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true" focusable="false"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.124 2.062 2.062 0 0 1 0 4.124zM7.119 20.452H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
+	</a>
+		<!-- Hidden data for modal -->
+	    <div class="speaker-bio" style="display:none;">
+	    	<p>Sebastian Diaz is the Senior Vice President of Data and AI at Qubika.</p>
+	    </div>
+	    <div class="speaker-abstract" style="display:none;">
+	    	<p>Drawing on Qubika's hands-on experience taking AI applications from proof-of-concept to production, this session shares what actually works when you combine a leading AI tool with a modern Data Foundation Platform. We'll walk through real patterns we've shipped — grounding the AI tool in governed data, evaluating agents and RAG systems before they go live, and deploying them with the security, monitoring, and cost controls production demands — along with the pitfalls we've hit and how we overcame them.</p>
+	    </div>
 	</div>
 	</div>
 
