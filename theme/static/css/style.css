@@ -1474,6 +1474,19 @@ section {
     max-width: 200px;
 }
 
+/* Enlarge the NMDSI wordmark ~30% for visual parity with peer logos, without
+   growing its card: transform scales the rendered logo but not its layout box. */
+.petabyte .sponsor-card img.sponsor-nmdsi {
+    transform: scale(1.3);
+}
+
+/* Give the NMDSI card ~15% more width via extra side padding, leaving the logo
+   itself unchanged, so the wide wordmark has more breathing room. */
+.petabyte .sponsor-card:has(img.sponsor-nmdsi) {
+    padding-left: 3.25rem;
+    padding-right: 3.25rem;
+}
+
 /* Clickable logo wrapper */
 .sponsor-website-link {
     display: flex;
