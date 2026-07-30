@@ -105,7 +105,7 @@ Save_as: pages/sponsors.html
 
 <div class="sponsor-card">
 <a class="sponsor-website-link" href="https://www.nmdsi.org" target="_blank" rel="noopener" aria-label="Northwestern Mutual Data Science Institute website">
-<img src="/images/sponsors/nmdsi.png" alt="Northwestern Mutual Data Science Institute">
+<img class="sponsor-nmdsi" src="/images/sponsors/nmdsi.png" alt="Northwestern Mutual Data Science Institute">
 </a>
 </div>
 
