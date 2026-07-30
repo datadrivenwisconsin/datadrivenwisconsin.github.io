@@ -1474,6 +1474,14 @@ section {
     max-width: 200px;
 }
 
+/* NMDSI is a wide wordmark with heavy built-in vertical whitespace, so at the
+   default Petabyte size its lettering reads far smaller than peer logos.
+   Scale it up (~2x) so its visible mark matches SysLogic/Qubika. */
+.petabyte .sponsor-card img.sponsor-nmdsi {
+    max-height: 170px;
+    max-width: 400px;
+}
+
 /* Clickable logo wrapper */
 .sponsor-website-link {
     display: flex;

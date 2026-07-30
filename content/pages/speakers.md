@@ -17,8 +17,9 @@ Save_as: pages/speakers.html
 <a class="speaker-linkedin" href="https://www.linkedin.com/in/aaronerickson/" target="_blank" rel="noopener noreferrer" aria-label="Aaron Erickson on LinkedIn">
 <svg class="speaker-linkedin-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true" focusable="false"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.124 2.062 2.062 0 0 1 0 4.124zM7.119 20.452H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
 </a>
-<div class="speaker-bio" style="display:none;"><p>Bio coming soon.</p></div>
-<div class="speaker-abstract" style="display:none;"><p>Talk summary coming soon.</p></div>
+<div class="speaker-bio" style="display:none;"><p>Aaron Erickson leads NemoClaw Engineering at NVIDIA, where he works on making AI agents practical, secure, and reliable in real-world engineering environments. His work spans sandboxed execution, policy and authority controls, inference routing, lifecycle management, skills, memory, evaluation, and integration with developer workflows. NemoClaw reflects his broader focus on combining the flexibility of agentic reasoning with deterministic systems, clear operational boundaries, and the controls required to deploy agents responsibly at scale.</p>
+<p>Aaron began his career as an engineer at PKWARE in Brown Deer, Wisconsin, in 1995. He spent nearly a decade at ThoughtWorks, from 2009 to 2018, working across engineering, consulting, technology leadership, and eventually general management. Since then, his career has included founding companies and leading engineering and product organizations, though he still thinks of himself as mostly an engineer—and an accidental executive.</p></div>
+<div class="speaker-abstract" style="display:none;"><p>In this talk, we will be sharing our experiences building NemoClaw at NVIDIA — what it is, why we are building it, how our system of agents builds it, and how we believe this changes what software engineering actually looks like.</p></div>
 </div>
 </div>
 
