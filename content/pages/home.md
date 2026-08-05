@@ -9,11 +9,11 @@ hide_title: False
 <center>
 <h2>Wednesday, August 12 at MSOE</h2>
 
-<p class="intro-announce">Registration is now open.</p>
+<p class="intro-announce">We are filling up - register soon!!</p>
 
 <p class="intro-text">Join us August 12 at MSOE for a day of data-driven insight, practical sessions, and connection with Wisconsin's analytics community. We're excited to welcome <strong>Aaron Erickson</strong>, NemoClaw Engineering Lead at NVIDIA and <strong>Raja Mukerji</strong>, CoFounder &amp; Chief Scientist at ExtraHop Networks as our opening and closing Keynote Speakers!</p>
 
-<p class="intro-text intro-text-cta">Registration is filling - register now to secure your seat.</p>
+<p class="intro-text intro-text-cta">Day of Registration will only be available if space is still available - register now to secure a seat!  Professionals / Leaders from more than 50 organizations have already signed up!</p>
 
 </center>
 
