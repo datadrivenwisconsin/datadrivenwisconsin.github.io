@@ -29,7 +29,7 @@ Milwaukee, WI 53202
 </div>
 
 <div class="parking-section">
-<h2>Getting Here</h2>
+<h2>Parking</h2>
 
 <div class="venue-cards">
 <div class="venue-card">
