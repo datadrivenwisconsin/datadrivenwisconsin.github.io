@@ -112,9 +112,4 @@ Save_as: pages/sponsors.html
 </div>
 </div>
 
-<div class="sponsor-cta">
-<h3>Interested in Sponsoring?</h3>
-<p>Join our community of sponsors and connect with data professionals across Wisconsin and the Midwest.</p>
-<a href="https://docs.google.com/document/d/1ZCAjeaASEqA4umYU3IeWmivTjjsifTHf/edit?usp=sharing&ouid=115351054218124804988&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Want to Sponsor</a>
-</div>
 </section>

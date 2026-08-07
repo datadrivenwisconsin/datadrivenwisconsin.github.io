@@ -1685,6 +1685,36 @@ section {
     margin-bottom: 0;
 }
 
+/* Stronger "stop" variant of the amber caution box, for the do-not-park notice */
+.warning-box.alert-danger {
+    background: rgba(190, 30, 45, 0.08);
+    border-left: 4px solid #be1e2d;
+}
+
+/* Inline campus map: full-width, clickable to full size, with a caption */
+.map-figure {
+    margin: var(--spacing-lg) 0;
+}
+
+.map-figure img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--radius-md);
+    display: block;
+}
+
+.map-figure figcaption {
+    color: var(--color-text-light);
+    font-size: 0.9rem;
+    margin-top: var(--spacing-sm);
+}
+
+.directions summary {
+    cursor: pointer;
+    font-weight: 600;
+    margin-bottom: var(--spacing-sm);
+}
+
 .contact-section {
     display: flex;
     flex-direction: column;
