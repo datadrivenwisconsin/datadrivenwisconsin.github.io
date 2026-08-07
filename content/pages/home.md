@@ -41,7 +41,7 @@ hide_title: False
         <div class="hero-actions">
             <a href="./pages/schedule.html" class="btn btn-outline btn-lg">View Schedule</a>
             <a href="./pages/speakers.html" class="btn btn-outline btn-lg">View Speakers</a>
-            <a href="https://docs.google.com/document/d/1ZCAjeaASEqA4umYU3IeWmivTjjsifTHf/edit?usp=sharing&ouid=115351054218124804988&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-lg">Want to Sponsor</a>
+            <a href="./pages/attending.html" class="btn btn-outline btn-lg">Parking &amp; Directions</a>
         </div>
     </div>
 </section>
@@ -76,9 +76,8 @@ hide_title: False
      SPONSORS (redundant copy of content/pages/sponsors.md)
      Mirrored here so home-page visitors see our sponsors too.
      When a sponsor is added/changed, update BOTH this block and
-     content/pages/sponsors.md. The "Interested in Sponsoring?" CTA
-     is intentionally omitted here (a "Want to Sponsor" link already
-     appears earlier on the home page).
+     content/pages/sponsors.md. This mirror shows sponsor logos only;
+     there is no sponsor call-to-action on the home page.
      ============================================================ -->
 <section class="sponsors-page">
 <h2 class="section-title" style="text-align: center;">Our Sponsors</h2>
