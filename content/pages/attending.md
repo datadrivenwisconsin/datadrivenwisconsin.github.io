@@ -26,6 +26,14 @@ Milwaukee, WI 53202
 </address>
 </div>
 </div>
+
+<details class="directions">
+<summary>Driving directions</summary>
+<p><strong>From the north:</strong> Take I-43 south to downtown Milwaukee. Take the Hwy 145 east / McKinley Ave. exit (73A). Turn left on McKinley and go six blocks to Broadway, then turn right toward campus and follow parking signs to State St. Lot A or the Water St. garage.</p>
+<p><strong>From the south:</strong> Take I-94 west to downtown Milwaukee. Take the Hwy 145 east / McKinley Ave. exit (73A). Continue on McKinley six blocks to Broadway, turn right toward campus, and follow parking signs to State St. Lot A or the Water St. garage.</p>
+<p><strong>From the west:</strong> Take I-94 east to downtown Milwaukee, then I-43 north toward Green Bay (exit 310B). Take the Hwy 145 east / McKinley Ave. exit (73A). Continue on McKinley six blocks to Broadway, turn right toward campus, and follow parking signs to State St. Lot A or the Water St. garage.</p>
+</details>
+
 </div>
 
 <div class="parking-section">
@@ -60,16 +68,12 @@ Milwaukee, WI 53202
 <figcaption>The Viets Field parking structure shown on the map is not available for DDWI 2026. <a href="/files/DDWI-parking-map-2026.pdf" target="_blank" rel="noopener">Printable map &amp; directions (PDF)</a></figcaption>
 </figure>
 
+<!--
 <h3>Finding the buildings</h3>
 <p>Diercks Hall, 1025 N. Milwaukee St. — registration, keynotes, Track 1 sessions, breakfast, lunch, and the sponsor expo.</p>
 <p>Direct Supply ITC, 1020 N. Broadway — Track 2 sessions, the cocktail reception, and networking dinner, a short walk north of Diercks Hall.</p>
+--!>
 
-<details class="directions">
-<summary>Driving directions</summary>
-<p><strong>From the north:</strong> Take I-43 south to downtown Milwaukee. Take the Hwy 145 east / McKinley Ave. exit (73A). Turn left on McKinley and go six blocks to Broadway, then turn right toward campus and follow parking signs to State St. Lot A or the Water St. garage.</p>
-<p><strong>From the south:</strong> Take I-94 west to downtown Milwaukee. Take the Hwy 145 east / McKinley Ave. exit (73A). Continue on McKinley six blocks to Broadway, turn right toward campus, and follow parking signs to State St. Lot A or the Water St. garage.</p>
-<p><strong>From the west:</strong> Take I-94 east to downtown Milwaukee, then I-43 north toward Green Bay (exit 310B). Take the Hwy 145 east / McKinley Ave. exit (73A). Continue on McKinley six blocks to Broadway, turn right toward campus, and follow parking signs to State St. Lot A or the Water St. garage.</p>
-</details>
 </div>
 
 <div class="hotels-section">
