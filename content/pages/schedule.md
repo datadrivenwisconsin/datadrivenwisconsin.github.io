@@ -138,8 +138,8 @@ Save_as: pages/schedule.html
         <p class="track-theme">AI in Production, Part II</p>
         <a href="/pages/speakers.html#diaz">AI Agents in Production: What We've Learned Building Real Systems</a>
         <p class="speaker">Sebastian Diaz</p>
-        <a href="/pages/speakers.html#connor">Growing a Production Customer-Facing AI System</a>
-        <p class="speaker">Michael Connor</p>
+        <a href="/pages/speakers.html#conner">Growing a Production Customer-Facing AI System</a>
+        <p class="speaker">Michael Conner</p>
       </div>
       <div class="track-info">
         <strong>Track 2</strong>
