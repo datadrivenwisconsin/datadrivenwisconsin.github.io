@@ -9,11 +9,11 @@ hide_title: False
 <center>
 <h2>Wednesday, August 12 at MSOE</h2>
 
-<p class="intro-announce">We are filling up - register soon!!</p>
-
 <p class="intro-text">Join us August 12 at MSOE for a day of data-driven insight, practical sessions, and connection with Wisconsin's analytics community. We're excited to welcome <strong>Aaron Erickson</strong>, NemoClaw Engineering Lead at NVIDIA and <strong>Raja Mukerji</strong>, CoFounder &amp; Chief Scientist at ExtraHop Networks as our opening and closing Keynote Speakers!</p>
 
-<p class="intro-text intro-text-cta">Day of Registration will only be available if space is still available - register now to secure a seat!  Professionals / Leaders from more than 50 organizations have already signed up!</p>
+<p class="intro-text intro-text-cta"><strong>Online Registration is now closed</strong> — over 200 attendees from 75+ organizations, spanning manufacturing, healthcare, finance, software, defense, government, and academia, from C-suite to students.</p>
+
+<p class="intro-text intro-text-cta">Day-of registration is limited to the <strong>first 10 at the door.</strong> Registration opens at 7:30 AM in Diercks Hall — come early.</p>
 
 </center>
 
@@ -27,13 +27,15 @@ hide_title: False
     <div class="reg-price-card student">
         <h3>Student Admission</h3>
         <p class="reg-price">$59</p>
-        <p class="reg-price-desc">50 seats available</p>
+        <p class="reg-price-desc">Seats still available at the door.</p>
     </div>
 </section>
 
+<!--
 <div class="reg-cta">
     <a href="https://cvent.me/WxdxOa" target="_blank" rel="noopener" class="btn btn-register btn-lg">Register</a>
 </div>
+--!>
 
 <!-- Hero Banner -->
 <section class="hero hero-coming-soon">
