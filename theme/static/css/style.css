@@ -723,11 +723,23 @@ section {
 }
 
 /* Set-off registration call-to-action — same blue as the "Registration is
-   now open." announcement, with extra space above it */
+   now open." announcement, with extra space above it. Body weight is kept
+   below 700 so <strong> inside has a heavier step to land on; DM Sans is
+   only loaded up to 700, so a 700 block leaves emphasis nowhere to go. */
 .intro-text-cta {
     margin-top: var(--spacing-lg);
     color: var(--color-primary);
+    font-weight: 500;
+}
+
+.intro-text-cta strong {
     font-weight: 700;
+}
+
+/* Consecutive CTA lines sit closer together than the gap that separates the
+   first one from the intro paragraph above */
+.intro-text-cta + .intro-text-cta {
+    margin-top: var(--spacing-sm);
 }
 
 .reg-pricing {
