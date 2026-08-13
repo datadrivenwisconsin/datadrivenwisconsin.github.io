@@ -7,29 +7,19 @@ hide_title: False
 
 
 <center>
-<h2>Wednesday, August 12 at MSOE</h2>
+<!-- 
+<h2 class="intro-date">Wednesday, August 12 at MSOE</h2>
+--!>
 
-<p class="intro-text">Join us August 12 at MSOE for a day of data-driven insight, practical sessions, and connection with Wisconsin's analytics community. We're excited to welcome <strong>Aaron Erickson</strong>, NemoClaw Engineering Lead at NVIDIA and <strong>Raja Mukerji</strong>, CoFounder &amp; Chief Scientist at ExtraHop Networks as our opening and closing Keynote Speakers!</p>
+<h2 class="intro-date">That's a Wrap!</h2>
 
-<p class="intro-text intro-text-cta"><strong>Online Registration is now closed</strong> — over 200 attendees from 75+ organizations, spanning manufacturing, healthcare, finance, software, defense, government, and academia, from C-suite to students.</p>
+<p class="intro-text">Thank you to <strong>Aaron Erickson</strong> of NVIDIA and <strong>Raja Mukerji</strong> of ExtraHop Networks, who traveled home to Milwaukee to open and close our day. Thank you to our sponsors, for the funding and some great speakers. And thank you to all our excellent speakers who shared their time and deep experiences. And finally, THANK YOU to the more than 200 of you, from 75+ organizations, who came to learn and share what you've built.</p>
 
-<p class="intro-text intro-text-cta">Day-of registration is limited to the <strong>first 10 at the door.</strong> Registration opens at 7:30 AM in Diercks Hall — come early.</p>
+<p class="intro-text">We'll send a survey soon to all who registered and share more about conference resources available once the dust settles.</p>
+
+<p class="intro-text intro-text-cta intro-signoff">We'll be back in 2027!</p>
 
 </center>
-
-<!-- Registration Pricing -->
-<section class="reg-pricing">
-    <div class="reg-price-card">
-        <h3>General Admission</h3>
-        <p class="reg-price">$119</p>
-        <p class="reg-price-desc">Includes all sessions and meals</p>
-    </div>
-    <div class="reg-price-card student">
-        <h3>Student Admission</h3>
-        <p class="reg-price">$59</p>
-        <p class="reg-price-desc">Seats still available at the door.</p>
-    </div>
-</section>
 
 <!--
 <div class="reg-cta">
@@ -43,7 +33,6 @@ hide_title: False
         <div class="hero-actions">
             <a href="./pages/schedule.html" class="btn btn-outline btn-lg">View Schedule</a>
             <a href="./pages/speakers.html" class="btn btn-outline btn-lg">View Speakers</a>
-            <a href="./pages/attending.html" class="btn btn-outline btn-lg">Parking &amp; Directions</a>
         </div>
     </div>
 </section>
