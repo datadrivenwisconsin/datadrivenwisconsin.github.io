@@ -717,9 +717,29 @@ section {
     margin: var(--spacing-sm) 0;
 }
 
+/* Home date subhead — teal to match the CTA line below it. Colour only, so
+   the heading keeps the responsive clamp() sizing from the base h2 rule. */
+.intro-date {
+    color: var(--color-primary);
+}
+
+/* Sign-off line — same clamp() as the base h2 so it tracks the date subhead
+   at every breakpoint rather than towering over it on narrow screens. */
+.intro-signoff {
+    font-size: clamp(1.75rem, 3vw, 2.5rem);
+    line-height: 1.2;
+}
+
 .intro-text {
     max-width: 700px;
     margin: 0 auto;
+}
+
+/* The global reset zeroes every margin, so consecutive intro paragraphs butt
+   together and read as one block. Space them. The CTA line is excluded — it
+   sets its own, larger top margin and would otherwise be pulled tighter. */
+.intro-text + .intro-text:not(.intro-text-cta) {
+    margin-top: var(--spacing-sm);
 }
 
 /* Set-off registration call-to-action — same blue as the "Registration is
@@ -742,6 +762,16 @@ section {
     margin-top: var(--spacing-sm);
 }
 
+/* ---------------------------------------------------------------
+   DORMANT — registration pricing/CTA styles, through .reg-cta below.
+   No markup uses these between conferences; the home page drops the
+   admission cards once the event is past. Kept deliberately, not
+   overlooked: unused rules cost nothing at render time, and this is
+   the expensive part to recreate. Reuse for the 2027 registration
+   block rather than rebuilding.
+
+   For the markup these styled, see: git show v2026-final:content/pages/home.md
+   --------------------------------------------------------------- */
 .reg-pricing {
     display: flex;
     justify-content: center;
