@@ -7,7 +7,11 @@ hide_title: False
 
 
 <center>
-<h2 class="intro-date">Wednesday, August 12 at MSOE<br>That's a Wrap!</h2>
+<!-- 
+<h2 class="intro-date">Wednesday, August 12 at MSOE</h2>
+--!>
+
+<h2 class="intro-date">That's a Wrap!</h2>
 
 <p class="intro-text">Thank you to <strong>Aaron Erickson</strong> of NVIDIA and <strong>Raja Mukerji</strong> of ExtraHop Networks, who traveled home to Milwaukee to open and close our day. Thank you to our sponsors, for the funding and some great speakers. And thank you to all our excellent speakers who shared their time and deep experiences. And finally, THANK YOU to the more than 200 of you, from 75+ organizations, who came to learn and share what you've built.</p>
 
